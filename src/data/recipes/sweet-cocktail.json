@@ -1,0 +1,286 @@
+[
+  {
+    "id": "pumpkin-spice-latte",
+    "name": "Pumpkin Spice Latte",
+    "category": "sweet",
+    "description": "A homemade PSL with real pumpkin, warm spice and maple. Better than the café version.",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "or 120 ml strong coffee" },
+      { "id": "whole-milk", "amount": 200, "unit": "ml" },
+      { "id": "pumpkin-puree", "amount": 2, "unit": "tbsp" },
+      { "id": "maple-syrup", "amount": 1, "unit": "tbsp" },
+      { "id": "pumpkin-pie-spice", "amount": 0.5, "unit": "tsp" },
+      { "id": "vanilla-extract", "amount": 0.25, "unit": "tsp", "optional": true },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["saucepan"],
+    "optionalEquipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Whisk the milk, pumpkin, maple syrup, spice and vanilla in a small pan over low heat until steaming.", "timerSeconds": 240 },
+      { "text": "Froth it with a frother or a quick whisk if you want some foam." },
+      { "text": "Brew your espresso or strong coffee into a mug and pour the pumpkin milk over it." },
+      { "text": "Top with whipped cream and a pinch more spice." }
+    ],
+    "tags": ["no-machine", "sweet", "seasonal", "autumn"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Love and Lemons — Pumpkin spice latte", "url": "https://www.loveandlemons.com/pumpkin-spice-latte/" },
+      { "name": "Inspired Taste — Pumpkin spice latte", "url": "https://www.inspiredtaste.net/8419/pumpkin-spice-latte-at-home-recipe/" }
+    ]
+  },
+  {
+    "id": "caramel-macchiato",
+    "name": "Caramel Macchiato",
+    "category": "sweet",
+    "description": "Vanilla syrup, steamed milk and espresso poured on top, finished with a caramel crosshatch.",
+    "difficulty": "medium",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "vanilla-syrup", "amount": 1, "unit": "tbsp" },
+      { "id": "whole-milk", "amount": 240, "unit": "ml" },
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "caramel-sauce", "amount": 1, "unit": "tbsp" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Put the vanilla syrup in the bottom of a tall glass or mug." },
+      { "text": "Steam the milk with a little foam and pour it over the syrup." },
+      { "text": "Pull a double espresso and pour it slowly through the foam so it sits on top." },
+      { "text": "Drizzle caramel sauce in a crosshatch over the foam." }
+    ],
+    "tips": ["Iced version: syrup, cold milk, ice, then espresso and caramel on top."],
+    "tags": ["sweet", "layered", "cafe-favourite"],
+    "cup": "latte-glass",
+    "sources": [
+      { "name": "Home Espresso Lab — Caramel macchiato", "url": "https://homeespressolab.com/recipes/caramel-macchiato-recipe/" },
+      { "name": "The Endless Meal — Caramel macchiato", "url": "https://www.theendlessmeal.com/caramel-macchiato/" }
+    ]
+  },
+  {
+    "id": "vanilla-latte",
+    "name": "Vanilla Latte",
+    "category": "sweet",
+    "description": "The café staple: a latte sweetened with vanilla syrup.",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "vanilla-syrup", "amount": 1, "unit": "tbsp" },
+      { "id": "whole-milk", "amount": 240, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Add the vanilla syrup to your cup." },
+      { "text": "Pull a double espresso on top and stir." },
+      { "text": "Steam the milk until silky and pour it in." }
+    ],
+    "tips": ["DIY syrup: simmer equal parts sugar and water until dissolved, then add 1 tsp vanilla extract per 100 ml."],
+    "tags": ["sweet", "beginner", "milky"],
+    "cup": "latte-glass",
+    "sources": [
+      { "name": "Stress Baking — Honey vanilla latte", "url": "https://stressbaking.com/honey-vanilla-latte/" },
+      { "name": "Majesty Coffee — Caramel macchiato vs vanilla latte", "url": "https://majestycoffee.com/blogs/posts/caramel-macchiato-vs-vanilla-latte" }
+    ]
+  },
+  {
+    "id": "honey-cinnamon-latte",
+    "name": "Honey Cinnamon Latte",
+    "category": "sweet",
+    "description": "Espresso sweetened with honey, with cinnamon-warmed milk. Cosy and not too sweet.",
+    "difficulty": "easy",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "or 120 ml strong coffee" },
+      { "id": "honey", "amount": 1, "unit": "tbsp" },
+      { "id": "cinnamon", "amount": 0.25, "unit": "tsp" },
+      { "id": "whole-milk", "amount": 200, "unit": "ml" },
+      { "id": "vanilla-extract", "amount": 0.25, "unit": "tsp", "optional": true }
+    ],
+    "equipment": ["milk-frother"],
+    "optionalEquipment": ["espresso-machine", "moka-pot"],
+    "steps": [
+      { "text": "Brew espresso or strong coffee and stir the honey in while it's hot." },
+      { "text": "Warm the milk with the cinnamon (and vanilla), then froth." },
+      { "text": "Pour the milk over the coffee and dust with a little more cinnamon." }
+    ],
+    "tips": ["For iced: shake cold milk with cinnamon in a jar and pour it over ice and the honeyed espresso."],
+    "tags": ["no-machine", "sweet", "cosy"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Emily Laurae — Honey latte with cinnamon", "url": "https://emilylaurae.com/honey-latte-recipe/" },
+      { "name": "Half Baked Harvest — Iced cinnamon honey latte", "url": "https://www.halfbakedharvest.com/iced-cinnamon-honey-latte/" }
+    ]
+  },
+  {
+    "id": "maple-latte",
+    "name": "Maple Cinnamon Latte",
+    "category": "sweet",
+    "description": "Maple syrup and a pinch of cinnamon turn a plain latte into an autumn treat.",
+    "difficulty": "easy",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "or 60 ml strong coffee" },
+      { "id": "maple-syrup", "amount": 1, "unit": "tbsp" },
+      { "id": "cinnamon", "amount": 1, "unit": "pinch" },
+      { "id": "whole-milk", "amount": 180, "unit": "ml" },
+      { "id": "vanilla-extract", "amount": 1, "unit": "splash", "optional": true }
+    ],
+    "equipment": ["milk-frother"],
+    "optionalEquipment": ["espresso-machine", "moka-pot"],
+    "steps": [
+      { "text": "Stir the maple syrup, cinnamon and vanilla into hot espresso or strong coffee." },
+      { "text": "Steam or froth the milk." },
+      { "text": "Pour the milk over the coffee and finish with a light dusting of cinnamon." }
+    ],
+    "tags": ["no-machine", "sweet", "seasonal", "autumn"],
+    "cup": "mug",
+    "sources": [
+      { "name": "The Chunky Chef — Maple cinnamon latte", "url": "https://www.thechunkychef.com/maple-cinnamon-latte/" },
+      { "name": "Tara's Multicultural Table — Maple cinnamon latte", "url": "https://tarasmulticulturaltable.com/maple-cinnamon-latte/" }
+    ]
+  },
+  {
+    "id": "mexican-mocha",
+    "name": "Mexican Mocha",
+    "category": "sweet",
+    "description": "A mocha spiced with cinnamon and a whisper of cayenne heat.",
+    "origin": "Inspired by Mexican hot chocolate",
+    "difficulty": "easy",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "or 120 ml strong coffee" },
+      { "id": "cocoa-powder", "amount": 1, "unit": "tbsp" },
+      { "id": "sugar", "amount": 1, "unit": "tbsp" },
+      { "id": "cinnamon", "amount": 0.25, "unit": "tsp" },
+      { "id": "cayenne", "amount": 1, "unit": "pinch", "optional": true },
+      { "id": "whole-milk", "amount": 180, "unit": "ml" },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": [],
+    "optionalEquipment": ["espresso-machine", "moka-pot", "milk-frother"],
+    "steps": [
+      { "text": "Mix the cocoa, sugar, cinnamon and cayenne in a mug." },
+      { "text": "Pour in the hot espresso or strong coffee and stir until there are no lumps." },
+      { "text": "Heat the milk (froth it if you can) and pour it in." },
+      { "text": "Top with whipped cream and a sprinkle of cinnamon." }
+    ],
+    "tags": ["no-machine", "chocolate", "spiced"],
+    "cup": "mug",
+    "sources": [
+      { "name": "A Spicy Perspective — Mexican mocha", "url": "https://www.aspicyperspective.com/mexican-mocha-recipe/" },
+      { "name": "Whisk Affair — Mexican mocha", "url": "https://www.whiskaffair.com/mexican-mocha-recipe/" }
+    ]
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "category": "cocktail",
+    "description": "Hot sweetened coffee and Irish whiskey under a float of cold, lightly whipped cream.",
+    "origin": "Foynes, Ireland",
+    "difficulty": "medium",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 10, "unit": "g", "note": "brew ~120 ml strong coffee" },
+      { "id": "water", "amount": 150, "unit": "ml" },
+      { "id": "brown-sugar", "amount": 2, "unit": "tsp" },
+      { "id": "whiskey", "amount": 45, "unit": "ml" },
+      { "id": "heavy-cream", "amount": 45, "unit": "ml" },
+      { "id": "nutmeg", "amount": 1, "unit": "pinch", "optional": true }
+    ],
+    "equipment": ["whisk"],
+    "optionalEquipment": ["french-press"],
+    "steps": [
+      { "text": "Warm a stemmed glass with hot water, then empty it." },
+      { "text": "Brew strong coffee (a French press is ideal)." },
+      { "text": "Whip the cream just until it thickens but still pours. No stiff peaks." },
+      { "text": "Stir the brown sugar into about 120 ml of hot coffee in the glass until dissolved, then add the whiskey." },
+      { "text": "Pour the cream slowly over the back of a spoon so it floats. Don't stir; drink through the cream." },
+      { "text": "Grate a little nutmeg on top if you like." }
+    ],
+    "tips": ["The sugar makes the coffee dense enough for the cream to float, so don't skip it."],
+    "tags": ["alcohol", "classic", "no-machine"],
+    "cup": "irish-glass",
+    "sources": [
+      { "name": "Food52 — The Dead Rabbit's Irish coffee", "url": "https://food52.com/recipes/66787-the-dead-rabbit-s-irish-coffee" },
+      { "name": "Forbes — Two famous Irish coffee recipes", "url": "https://www.forbes.com/sites/ginapace/2023/01/25/how-to-try-two-of-the-most-famous-irish-coffee-recipes-at-the-same-time/" }
+    ]
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "category": "cocktail",
+    "description": "Vodka, coffee liqueur and fresh espresso shaken hard for a silky foam. Ends dinner and restarts the night.",
+    "origin": "London, 1980s",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "vodka", "amount": 50, "unit": "ml" },
+      { "id": "coffee-liqueur", "amount": 30, "unit": "ml" },
+      { "id": "espresso-beans", "amount": 9, "unit": "g", "note": "one strong shot, ~30 ml" },
+      { "id": "simple-syrup", "amount": 10, "unit": "ml" },
+      { "id": "ice", "amount": 1, "unit": "cup" }
+    ],
+    "equipment": ["espresso-machine", "cocktail-shaker"],
+    "steps": [
+      { "text": "Chill a coupe or martini glass." },
+      { "text": "Pull a fresh espresso shot." },
+      { "text": "Add vodka, coffee liqueur, syrup and the espresso to a shaker filled with ice." },
+      { "text": "Shake very hard until frothy and ice-cold.", "timerSeconds": 15 },
+      { "text": "Strain into the glass and garnish with three coffee beans." }
+    ],
+    "tips": ["Fresh, hot espresso gives the best foam. Moka pot coffee works in a pinch."],
+    "tags": ["alcohol", "party", "foamy"],
+    "cup": "irish-glass",
+    "sources": [
+      { "name": "IBA — Espresso martini", "url": "https://iba-world.com/iba-cocktail/espresso-martini/" },
+      { "name": "Wikipedia — Espresso martini", "url": "https://en.wikipedia.org/wiki/Espresso_martini" }
+    ]
+  },
+  {
+    "id": "carajillo",
+    "name": "Carajillo",
+    "category": "cocktail",
+    "description": "Espresso and Licor 43 shaken over ice. A two-ingredient after-dinner favourite in Mexico and Spain.",
+    "origin": "Spain / Mexico",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "licor-43", "amount": 50, "unit": "ml" },
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "~50 ml espresso" },
+      { "id": "ice", "amount": 1, "unit": "cup" }
+    ],
+    "equipment": ["espresso-machine", "cocktail-shaker"],
+    "steps": [
+      { "text": "Fill a rocks glass with ice." },
+      { "text": "Pull a double espresso." },
+      { "text": "Shake equal parts espresso and Licor 43 with ice until the shaker is frosty, about 20 seconds.", "timerSeconds": 20 },
+      { "text": "Strain over the fresh ice and garnish with a few coffee beans." }
+    ],
+    "tags": ["alcohol", "sweet", "two-ingredient"],
+    "cup": "irish-glass",
+    "sources": [
+      { "name": "Licor 43 — Carajillo 43", "url": "https://licor43.com/cocktails/carajillo-43/" },
+      { "name": "The Kitchn — Carajillo cocktail", "url": "https://www.thekitchn.com/carajillo-cocktail-recipe-23679104" }
+    ]
+  }
+]

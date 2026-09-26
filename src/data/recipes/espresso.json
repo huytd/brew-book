@@ -1,0 +1,241 @@
+[
+  {
+    "id": "espresso",
+    "name": "Espresso (Double)",
+    "category": "espresso",
+    "description": "The foundation of the café menu: a short, syrupy shot with a hazelnut-coloured crema on top.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:2",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 36, "unit": "g", "note": "yield in the cup" }
+    ],
+    "equipment": ["espresso-machine", "grinder"],
+    "optionalEquipment": ["scale"],
+    "steps": [
+      { "text": "Grind 18 g of coffee fine — a little finer than table salt — into a dry portafilter." },
+      { "text": "Level the bed with a tap or finger, then tamp firmly and evenly." },
+      { "text": "Lock in the portafilter, put a cup on the scale and start the shot straight away." },
+      { "text": "Stop when about 36 g of liquid is in the cup. This should take roughly 25–30 seconds.", "timerSeconds": 28 },
+      { "text": "Taste. Sour and fast? Grind finer. Bitter and slow? Grind coarser. Change one thing at a time." }
+    ],
+    "tips": [
+      "Time is a diagnostic, not a target — taste decides.",
+      "Warm the cup first so the shot doesn't cool instantly."
+    ],
+    "tags": ["classic", "strong", "caffeine-kick"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "La Marzocco Home — Using espresso brew ratios", "url": "https://home.lamarzoccousa.com/using-espresso-brew-ratios/" },
+      { "name": "Podium Coffee Club — Espresso brew ratio explained", "url": "https://podiumcoffeeclub.com/blogs/blog/espresso-brew-ratio" }
+    ]
+  },
+  {
+    "id": "ristretto",
+    "name": "Ristretto",
+    "category": "espresso",
+    "description": "A 'restricted' shot — the same dose as an espresso but pulled shorter, for a sweeter, denser sip.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:1–1:1.5",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 25, "unit": "g", "note": "yield in the cup" }
+    ],
+    "equipment": ["espresso-machine", "grinder"],
+    "optionalEquipment": ["scale"],
+    "steps": [
+      { "text": "Dose, level and tamp 18 g of finely ground coffee just as for a normal espresso." },
+      { "text": "Start the shot and cut it early, at about 20–27 g in the cup (roughly 15–20 seconds).", "timerSeconds": 18 },
+      { "text": "Serve immediately — it's gone in two or three sips." }
+    ],
+    "tips": ["A ristretto is the traditional base for a piccolo latte."],
+    "tags": ["strong", "sweet-notes"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Bean Box — Espresso drink menu translated", "url": "https://beanbox.com/blog/espresso-drink-menu-translated" },
+      { "name": "Pro Coffee Gear — Coffee drinks chart", "url": "https://procoffeegear.com/blogs/articles/coffee-drinks-chart-explained" }
+    ]
+  },
+  {
+    "id": "lungo",
+    "name": "Lungo",
+    "category": "espresso",
+    "description": "A 'long' shot: more water pushed through the same puck for a bigger, lighter-bodied and more bitter cup.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:3",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 54, "unit": "g", "note": "yield in the cup" }
+    ],
+    "equipment": ["espresso-machine", "grinder"],
+    "optionalEquipment": ["scale"],
+    "steps": [
+      { "text": "Prepare the portafilter with 18 g of coffee, ground a touch coarser than for espresso." },
+      { "text": "Pull the shot until you have around 54 g in the cup, about 35–45 seconds.", "timerSeconds": 40 },
+      { "text": "Stir the crema in and drink hot." }
+    ],
+    "tips": ["Unlike an americano, all the water in a lungo passes through the coffee."],
+    "tags": ["classic"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Pro Coffee Gear — Coffee drinks chart", "url": "https://procoffeegear.com/blogs/articles/coffee-drinks-chart-explained" },
+      { "name": "Mug Cult — Espresso drinks explained", "url": "https://mugcult.com/guides/espresso-drinks-menu-explained" }
+    ]
+  },
+  {
+    "id": "americano",
+    "name": "Caffè Americano",
+    "category": "espresso",
+    "description": "Espresso lengthened with hot water — the body of filter coffee with espresso's roasty depth.",
+    "origin": "Italy",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 180, "unit": "ml", "note": "hot, just off the boil" }
+    ],
+    "equipment": ["espresso-machine"],
+    "optionalEquipment": ["kettle"],
+    "steps": [
+      { "text": "Pull a double espresso (about 36 g) into a large mug." },
+      { "text": "Top up with 150–200 ml of hot water, adjusting to taste." },
+      { "text": "Give it a stir and serve." }
+    ],
+    "tips": ["Water poured on top breaks up the crema — that's the key difference from a long black."],
+    "tags": ["classic", "beginner"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Wikipedia — Caffè americano", "url": "https://en.wikipedia.org/wiki/Caff%C3%A8_americano" },
+      { "name": "Trade Coffee — Americano vs long black", "url": "https://www.drinktrade.com/blogs/culture/americano-vs-long-black" }
+    ]
+  },
+  {
+    "id": "long-black",
+    "name": "Long Black",
+    "category": "espresso",
+    "description": "The Aussie/Kiwi take on an americano: water first, espresso on top, so the crema stays intact.",
+    "origin": "Australia & New Zealand",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 100, "unit": "ml", "note": "hot" }
+    ],
+    "equipment": ["espresso-machine"],
+    "optionalEquipment": ["kettle"],
+    "steps": [
+      { "text": "Pour about 100 ml of hot water into a small (120–180 ml) cup." },
+      { "text": "Pull a double espresso directly on top of the water." },
+      { "text": "Serve without stirring so the crema floats on the surface." }
+    ],
+    "tips": ["Less water than an americano, so it tastes more intense."],
+    "tags": ["classic", "strong"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Sage Appliances — Long black vs americano", "url": "https://www.sageappliances.com/uk/en/blog/coffee-and-espresso/long-black-vs-americano.html" },
+      { "name": "Hoxton Coffee Co — Americano vs long black", "url": "https://hoxtoncoffee.com/blogs/coffee/americano-vs-long-black" }
+    ]
+  },
+  {
+    "id": "affogato",
+    "name": "Affogato",
+    "category": "espresso",
+    "description": "A scoop of vanilla ice cream 'drowned' in a hot shot of espresso. Dessert and coffee in one glass.",
+    "origin": "Italy",
+    "difficulty": "easy",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "vanilla-ice-cream", "amount": 1, "unit": "scoop" },
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "dark-chocolate", "amount": 1, "unit": "tsp", "optional": true, "note": "shaved, to garnish" }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Chill a small glass or bowl in the freezer for a few minutes." },
+      { "text": "Add one or two firm scoops of vanilla ice cream (or gelato)." },
+      { "text": "Pull a shot of espresso and pour it straight over the ice cream." },
+      { "text": "Grate a little chocolate over the top if you like and eat right away with a spoon." }
+    ],
+    "tips": ["No espresso machine? A very strong moka pot or AeroPress shot works too."],
+    "tags": ["dessert", "sweet", "beginner"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Wikipedia — Affogato", "url": "https://en.wikipedia.org/wiki/Affogato" },
+      { "name": "Inside The Rustic Kitchen — Italian affogato", "url": "https://www.insidetherustickitchen.com/italian-affogato-recipe/" }
+    ]
+  },
+  {
+    "id": "espresso-romano",
+    "name": "Espresso Romano",
+    "category": "espresso",
+    "description": "Espresso served with a twist of lemon peel whose oils add a bright citrus lift.",
+    "origin": "Italy (popularised in the US)",
+    "difficulty": "easy",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "lemon", "amount": 1, "unit": "strip", "note": "peel only, no white pith" }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Use a peeler to take a thin strip of lemon peel, avoiding the bitter white pith." },
+      { "text": "Pull a shot of espresso into a demitasse." },
+      { "text": "Twist the peel over the cup to spray its oils on the surface, then rub it on the rim." },
+      { "text": "Drop the peel in or set it on the saucer and serve." }
+    ],
+    "tags": ["citrus", "strong"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Perfect Daily Grind — What is the espresso romano?", "url": "https://perfectdailygrind.com/2021/01/what-is-the-espresso-romano/" },
+      { "name": "Coffeeness — Espresso romano", "url": "https://www.coffeeness.de/en/espresso-romano/" }
+    ]
+  },
+  {
+    "id": "espresso-con-panna",
+    "name": "Espresso con Panna",
+    "category": "espresso",
+    "description": "A single or double espresso crowned with a dollop of whipped cream.",
+    "origin": "Italy",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp" }
+    ],
+    "equipment": ["espresso-machine"],
+    "optionalEquipment": ["whisk"],
+    "steps": [
+      { "text": "If starting from heavy cream, whisk a few tablespoons to soft peaks." },
+      { "text": "Pull a shot of espresso into a small glass or demitasse." },
+      { "text": "Spoon the whipped cream on top and serve straight away." }
+    ],
+    "tags": ["dessert", "classic"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Wikipedia — Espresso con panna", "url": "https://en.wikipedia.org/wiki/Espresso_con_panna" },
+      { "name": "Starbucks at Home — Espresso con panna", "url": "https://www.starbucksathome.com/ca/en-ca/recipe/espresso-con-panna" }
+    ]
+  }
+]

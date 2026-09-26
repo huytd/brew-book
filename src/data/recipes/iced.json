@@ -1,0 +1,277 @@
+[
+  {
+    "id": "iced-latte",
+    "name": "Iced Latte",
+    "category": "iced",
+    "description": "A double espresso poured over ice and cold milk. Simple, refreshing, endlessly customisable.",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 200, "unit": "ml", "note": "cold" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "simple-syrup", "amount": 1, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Fill a tall glass with ice and pour in the cold milk (and syrup, if using)." },
+      { "text": "Pull a double espresso." },
+      { "text": "Pour the espresso over the top and watch it cascade, then stir before drinking." }
+    ],
+    "tips": ["No machine? Use 60 ml of cold brew concentrate or strong moka pot coffee."],
+    "tags": ["beginner", "refreshing", "milky"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Starbucks at Home — Iced mocha (base method)", "url": "https://athome.starbucks.com/recipe/iced-mocha" },
+      { "name": "Meraki — Espresso menu classics", "url": "https://www.merakitech.com/blogs/blog/espresso-menu-classics" }
+    ]
+  },
+  {
+    "id": "iced-americano",
+    "name": "Iced Americano",
+    "category": "iced",
+    "description": "Espresso, cold water and ice: bold, zero-calorie and fast.",
+    "difficulty": "easy",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 150, "unit": "ml", "note": "cold" },
+      { "id": "ice", "amount": 1, "unit": "cup" }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Fill a glass with ice and add the cold water." },
+      { "text": "Pull a double espresso straight over the top." },
+      { "text": "Stir and serve." }
+    ],
+    "tags": ["dairy-free", "refreshing", "strong"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Wikipedia — Caffè americano", "url": "https://en.wikipedia.org/wiki/Caff%C3%A8_americano" },
+      { "name": "Corner Coffee Store — Americano vs long black", "url": "https://cornercoffeestore.com/americano-vs-long-black/" }
+    ]
+  },
+  {
+    "id": "brown-sugar-shaken-espresso",
+    "name": "Brown Sugar Shaken Espresso",
+    "category": "iced",
+    "description": "Espresso shaken hard with brown sugar and cinnamon until foamy, then topped with oat milk.",
+    "difficulty": "easy",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "brown-sugar", "amount": 1, "unit": "tbsp" },
+      { "id": "cinnamon", "amount": 1, "unit": "pinch" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "oat-milk", "amount": 120, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "cocktail-shaker"],
+    "steps": [
+      { "text": "Pull a double espresso and pour it hot into a shaker or lidded jar." },
+      { "text": "Add the brown sugar and cinnamon and swirl until the sugar dissolves." },
+      { "text": "Add a handful of ice, seal, and shake hard for 10–15 seconds until frothy.", "timerSeconds": 15 },
+      { "text": "Pour everything into a tall glass and top with oat milk. Don't stir, let it swirl." }
+    ],
+    "tags": ["sweet", "dairy-free", "cafe-favourite"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Tasting Table — Copycat brown sugar oatmilk shaken espresso", "url": "https://www.tastingtable.com/1873109/copycat-starbucks-brown-sugar-oatmilk-shaken-espresso-recipe/" },
+      { "name": "Live Eat Learn — Brown sugar shaken espresso", "url": "https://www.liveeatlearn.com/brown-sugar-shaken-espresso/" }
+    ]
+  },
+  {
+    "id": "greek-frappe",
+    "name": "Greek Frappé",
+    "category": "iced",
+    "description": "Instant coffee shaken into a thick foam over ice. Greece's beach-café classic.",
+    "origin": "Greece",
+    "difficulty": "easy",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "instant-coffee", "amount": 2, "unit": "tsp" },
+      { "id": "sugar", "amount": 2, "unit": "tsp", "optional": true, "note": "skip for 'sketo', 2 tsp for 'metrio'" },
+      { "id": "water", "amount": 60, "unit": "ml", "note": "cold" },
+      { "id": "ice", "amount": 4, "unit": "cubes" },
+      { "id": "whole-milk", "amount": 2, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["cocktail-shaker"],
+    "optionalEquipment": ["milk-frother"],
+    "steps": [
+      { "text": "Put the instant coffee, sugar (if using) and a splash of cold water in a shaker or jar." },
+      { "text": "Seal and shake vigorously until the foam is thick and pale.", "timerSeconds": 30 },
+      { "text": "Pour into a tall glass with ice cubes." },
+      { "text": "Top up with cold water, and a splash of milk if you like. Serve with a straw." }
+    ],
+    "tags": ["no-machine", "foamy", "budget"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "My Greek Dish — Greek frappé", "url": "https://www.mygreekdish.com/recipe/greek-frappe-coffee-recipe-iced-coffee/" },
+      { "name": "Leite's Culinaria — Greek-style frappe", "url": "https://leitesculinaria.com/11838/recipes-greek-style-frappe.html" }
+    ]
+  },
+  {
+    "id": "blended-coffee-frappe",
+    "name": "Blended Coffee Frappé",
+    "category": "iced",
+    "description": "A frosty, café-style blended coffee shake. No coffee shop line required.",
+    "difficulty": "easy",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "cold-brew-concentrate", "amount": 120, "unit": "ml", "note": "or cooled strong coffee" },
+      { "id": "whole-milk", "amount": 120, "unit": "ml" },
+      { "id": "sugar", "amount": 2, "unit": "tbsp" },
+      { "id": "ice", "amount": 1.5, "unit": "cup" },
+      { "id": "vanilla-extract", "amount": 0.25, "unit": "tsp", "optional": true },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp", "optional": true },
+      { "id": "caramel-sauce", "amount": 1, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["blender"],
+    "steps": [
+      { "text": "Chill your coffee. Warm coffee melts the ice and makes it watery." },
+      { "text": "Blend coffee, milk, sugar and vanilla for a few seconds to combine." },
+      { "text": "Add the ice and blend on high until thick and smooth." },
+      { "text": "Pour into a tall glass and top with whipped cream and a caramel drizzle, if you like." }
+    ],
+    "tips": ["Freeze leftover coffee in ice cube trays for a frappé that never goes watery."],
+    "tags": ["no-machine", "sweet", "dessert"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "The Kitchn — Blended coffee frappe", "url": "https://www.thekitchn.com/coffee-frappe-recipe-23392115" },
+      { "name": "Food Network — Blended coffee frappe", "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/blended-coffee-frappe-5486418" }
+    ]
+  },
+  {
+    "id": "dalgona-coffee",
+    "name": "Dalgona (Whipped) Coffee",
+    "category": "iced",
+    "description": "Instant coffee, sugar and hot water whipped into a toffee-coloured cloud over milk.",
+    "origin": "South Korea",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "instant-coffee", "amount": 2, "unit": "tbsp" },
+      { "id": "sugar", "amount": 2, "unit": "tbsp" },
+      { "id": "water", "amount": 2, "unit": "tbsp", "note": "hot" },
+      { "id": "whole-milk", "amount": 200, "unit": "ml" },
+      { "id": "ice", "amount": 1, "unit": "cup", "optional": true }
+    ],
+    "equipment": ["whisk"],
+    "steps": [
+      { "text": "Put equal parts instant coffee, sugar and hot water in a bowl." },
+      { "text": "Whip with a hand mixer or whisk until it's thick, pale and holds stiff peaks. That's 2–5 minutes with a mixer, longer by hand.", "timerSeconds": 180 },
+      { "text": "Fill a glass ¾ full with milk, cold over ice or warmed." },
+      { "text": "Spoon the whipped coffee on top. Stir it in before drinking." }
+    ],
+    "tips": ["It only works with instant coffee. Brewed coffee won't whip."],
+    "tags": ["no-machine", "sweet", "viral"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "NESCAFÉ — Whipped coffee", "url": "https://www.nescafe.com/us/recipes/whipped-coffee/" },
+      { "name": "i am a food blog — Dalgona coffee", "url": "https://iamafoodblog.com/dalgona-coffee/" }
+    ]
+  },
+  {
+    "id": "espresso-tonic",
+    "name": "Espresso Tonic",
+    "category": "iced",
+    "description": "Espresso floated over icy tonic water. Bitter, bubbly and surprisingly citrusy.",
+    "origin": "Sweden",
+    "difficulty": "easy",
+    "timeMinutes": 3,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "tonic-water", "amount": 150, "unit": "ml", "note": "well chilled" },
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "orange", "amount": 1, "unit": "slice", "optional": true }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Fill a glass with large ice cubes and pour in the chilled tonic." },
+      { "text": "Pull a double espresso." },
+      { "text": "Pour it slowly over the back of a spoon so it floats on top and the tonic keeps its fizz." },
+      { "text": "Garnish with a squeezed orange slice if you like." }
+    ],
+    "tips": ["Start around 1 part espresso to 3 parts tonic, then adjust."],
+    "tags": ["dairy-free", "refreshing", "bubbly"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Methodical Coffee — At-home espresso tonic", "url": "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations" },
+      { "name": "Borough Kitchen — Espresso tonic with orange", "url": "https://www.boroughkitchen.com/blogs/news/iced-espresso-tonic-with-orange-juice-recipe" }
+    ]
+  },
+  {
+    "id": "sweet-cream-cold-brew",
+    "name": "Vanilla Sweet Cream Cold Brew",
+    "category": "iced",
+    "description": "Smooth cold brew topped with a pour of vanilla-sweetened cream that slowly clouds the glass.",
+    "difficulty": "easy",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "cold-brew-concentrate", "amount": 120, "unit": "ml" },
+      { "id": "water", "amount": 60, "unit": "ml", "note": "cold" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "heavy-cream", "amount": 2, "unit": "tbsp" },
+      { "id": "two-percent-milk", "amount": 2, "unit": "tbsp" },
+      { "id": "vanilla-syrup", "amount": 1, "unit": "tbsp" }
+    ],
+    "equipment": [],
+    "optionalEquipment": ["milk-frother", "large-jar"],
+    "steps": [
+      { "text": "Stir the heavy cream, milk and vanilla syrup together. Or shake them in a jar for a minute to make a soft cold foam." },
+      { "text": "Fill a glass with ice, then add the cold brew concentrate and cold water." },
+      { "text": "Pour the sweet cream over the top and serve." }
+    ],
+    "tips": ["Make a big batch of sweet cream (1 : 1 : ¼ cream, milk, syrup). It keeps about a week."],
+    "tags": ["no-machine", "sweet", "creamy"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "CopyKat — Vanilla sweet cream cold brew", "url": "https://copykat.com/starbucks-vanilla-sweet-cream-cold-brew/" },
+      { "name": "Hummingbird High — Vanilla sweet cream cold foam", "url": "https://www.hummingbirdhigh.com/2022/08/vanilla-sweet-cream-cold-foam-a-copycat-starbucks-recipe.html" }
+    ]
+  },
+  {
+    "id": "iced-mocha",
+    "name": "Iced Mocha",
+    "category": "iced",
+    "description": "Chocolate, espresso and cold milk over ice: a mocha for warm days.",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "chocolate-sauce", "amount": 2, "unit": "tbsp" },
+      { "id": "whole-milk", "amount": 180, "unit": "ml", "note": "cold" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Pull a double espresso and stir the chocolate sauce into it while it's hot." },
+      { "text": "Fill a tall glass with ice and pour in the cold milk." },
+      { "text": "Pour the chocolate espresso over, stir, and top with whipped cream if you like." }
+    ],
+    "tags": ["sweet", "chocolate"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Starbucks at Home — Iced mocha", "url": "https://athome.starbucks.com/recipe/iced-mocha" },
+      { "name": "Baking Mischief — Iced mocha", "url": "https://bakingmischief.com/iced-mocha-recipe/" }
+    ]
+  }
+]

@@ -1,0 +1,413 @@
+[
+  {
+    "id": "vietnamese-iced-coffee",
+    "name": "Cà Phê Sữa Đá",
+    "category": "international",
+    "description": "Vietnamese iced coffee: strong, dark coffee slow-dripped through a phin onto condensed milk, then poured over ice.",
+    "origin": "Vietnam",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "dark-roast", "amount": 20, "unit": "g", "note": "medium-coarse; robusta is traditional" },
+      { "id": "sweetened-condensed-milk", "amount": 2, "unit": "tbsp" },
+      { "id": "water", "amount": 100, "unit": "ml", "note": "boiling" },
+      { "id": "ice", "amount": 1, "unit": "cup" }
+    ],
+    "equipment": ["phin-filter", "kettle"],
+    "steps": [
+      { "text": "Spoon the condensed milk into a heatproof glass and set the phin on top." },
+      { "text": "Add the coffee to the phin, shake it level, and press the insert on lightly." },
+      { "text": "Pour in about 20 ml of boiling water to bloom.", "timerSeconds": 30 },
+      { "text": "Fill the phin with the rest of the water, cover, and let it drip slowly, about 4–5 minutes.", "timerSeconds": 270 },
+      { "text": "Stir the coffee into the condensed milk, then pour it over a glass full of ice." }
+    ],
+    "tips": ["Dripping too fast? Press the insert a little tighter next time. Too slow? Loosen it."],
+    "tags": ["no-machine", "sweet", "strong", "classic"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Wikipedia — Vietnamese iced coffee", "url": "https://en.wikipedia.org/wiki/Vietnamese_iced_coffee" },
+      { "name": "Nguyen Coffee Supply — Cà phê sữa đá", "url": "https://nguyencoffeesupply.com/blogs/vietnamese-coffee-brew-guide/vietnamese-iced-coffee" },
+      { "name": "The Woks of Life — Vietnamese coffee", "url": "https://thewoksoflife.com/how-to-make-vietnamese-coffee/" }
+    ]
+  },
+  {
+    "id": "vietnamese-egg-coffee",
+    "name": "Cà Phê Trứng (Egg Coffee)",
+    "category": "international",
+    "description": "Hanoi's dessert-like coffee: strong phin coffee under a thick, custardy foam of whipped yolk and condensed milk.",
+    "origin": "Hanoi, Vietnam",
+    "difficulty": "medium",
+    "timeMinutes": 12,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "dark-roast", "amount": 15, "unit": "g" },
+      { "id": "water", "amount": 60, "unit": "ml", "note": "boiling" },
+      { "id": "egg", "amount": 1, "unit": "yolk", "note": "use pasteurised if you're concerned" },
+      { "id": "sweetened-condensed-milk", "amount": 2, "unit": "tbsp" },
+      { "id": "sugar", "amount": 1, "unit": "tsp", "optional": true },
+      { "id": "cocoa-powder", "amount": 1, "unit": "pinch", "optional": true }
+    ],
+    "equipment": ["phin-filter", "whisk"],
+    "optionalEquipment": ["espresso-machine", "moka-pot"],
+    "steps": [
+      { "text": "Set a small cup in a bowl of hot water to keep it warm, then brew a short, strong coffee into it with the phin (or pull an espresso).", "timerSeconds": 240 },
+      { "text": "Meanwhile, whisk the egg yolk, condensed milk and sugar until pale, thick and doubled in volume. That's 3–5 minutes with a hand mixer.", "timerSeconds": 240 },
+      { "text": "Spoon the egg foam gently over the hot coffee." },
+      { "text": "Dust with cocoa and eat the top with a spoon before stirring the rest." }
+    ],
+    "tips": ["Created in 1946 by Nguyễn Văn Giảng at Hanoi's Metropole Hotel, when milk was scarce."],
+    "tags": ["dessert", "sweet", "no-machine"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Wikipedia — Egg coffee", "url": "https://en.wikipedia.org/wiki/Egg_coffee" },
+      { "name": "Legal Nomads — Vietnamese egg coffee", "url": "https://www.legalnomads.com/vietnamese-egg-coffee-recipe/" },
+      { "name": "The Kitchn — Vietnamese egg coffee", "url": "https://www.thekitchn.com/vietnamese-egg-coffee-recipe-23779328" }
+    ]
+  },
+  {
+    "id": "vietnamese-coconut-coffee",
+    "name": "Cà Phê Cốt Dừa (Coconut Coffee)",
+    "category": "international",
+    "description": "A Hanoi café favourite: a coconut-condensed-milk slushy with strong coffee poured over the top.",
+    "origin": "Hanoi, Vietnam",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "dark-roast", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 80, "unit": "ml", "note": "boiling" },
+      { "id": "coconut-milk", "amount": 80, "unit": "ml", "note": "full-fat coconut cream is best" },
+      { "id": "sweetened-condensed-milk", "amount": 2, "unit": "tbsp" },
+      { "id": "ice", "amount": 2, "unit": "cup" }
+    ],
+    "equipment": ["phin-filter", "blender"],
+    "optionalEquipment": ["espresso-machine", "moka-pot"],
+    "steps": [
+      { "text": "Brew a strong coffee with the phin (or use a double espresso) and let it cool a little.", "timerSeconds": 270 },
+      { "text": "Blend the coconut cream, condensed milk and ice on high until it's smooth and slushy." },
+      { "text": "Spoon the slush into a glass and pour the coffee over the top." }
+    ],
+    "tags": ["no-machine", "sweet", "dessert", "tropical"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Delightful Plate — Vietnamese coconut coffee", "url": "https://delightfulplate.com/vietnamese-coconut-coffee-cafe-cot-dua/" },
+      { "name": "Vicky Pham — Cà phê dừa", "url": "https://vickypham.com/blog/vietnamese-iced-coconut-milk-coffee-ca-phe-dua/" }
+    ]
+  },
+  {
+    "id": "turkish-coffee",
+    "name": "Turkish Coffee",
+    "category": "international",
+    "description": "Powder-fine coffee simmered in a cezve with sugar, served unfiltered under a velvety foam.",
+    "origin": "Türkiye",
+    "difficulty": "medium",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:10",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 7, "unit": "g", "note": "extra-fine, like flour" },
+      { "id": "water", "amount": 70, "unit": "ml", "note": "cold" },
+      { "id": "sugar", "amount": 1, "unit": "tsp", "optional": true }
+    ],
+    "equipment": ["cezve"],
+    "steps": [
+      { "text": "Put the cold water, coffee and sugar in the cezve. Sugar goes in now, never after." },
+      { "text": "Stir just enough to combine, then leave the spoon out." },
+      { "text": "Warm over low heat. When foam rises toward the rim, lift it off the heat before it boils over.", "timerSeconds": 150 },
+      { "text": "Spoon some foam into the cup, return the cezve to the heat and let it rise once more." },
+      { "text": "Pour slowly into the cup and let the grounds settle for a minute before sipping." }
+    ],
+    "tips": ["Serve with a glass of water and something sweet, like Turkish delight."],
+    "tags": ["no-machine", "strong", "traditional"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Wikipedia — Turkish coffee", "url": "https://en.wikipedia.org/wiki/Turkish_coffee" },
+      { "name": "Kurukahveci Mehmet Efendi — Brew guide (cezve)", "url": "https://www.mehmetefendi.com/eng/brew-guide/turkish-coffee/with-cezve" }
+    ]
+  },
+  {
+    "id": "cafe-de-olla",
+    "name": "Café de Olla",
+    "category": "international",
+    "description": "Mexican pot coffee simmered with cinnamon and piloncillo. Warm, spiced and lightly caramel-sweet.",
+    "origin": "Mexico",
+    "difficulty": "easy",
+    "timeMinutes": 15,
+    "servings": 2,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 30, "unit": "g", "note": "medium-coarse, dark roast" },
+      { "id": "water", "amount": 500, "unit": "ml" },
+      { "id": "piloncillo", "amount": 40, "unit": "g" },
+      { "id": "cinnamon", "amount": 1, "unit": "stick" },
+      { "id": "cloves", "amount": 2, "unit": "piece", "optional": true },
+      { "id": "star-anise", "amount": 1, "unit": "piece", "optional": true },
+      { "id": "orange", "amount": 1, "unit": "strip", "optional": true, "note": "peel" }
+    ],
+    "equipment": ["saucepan"],
+    "steps": [
+      { "text": "Put the water, piloncillo, cinnamon and any other spices in a pot (a clay olla if you have one)." },
+      { "text": "Bring to a boil, stirring until the piloncillo has dissolved." },
+      { "text": "Take it off the heat, stir in the coffee, cover and steep.", "timerSeconds": 360 },
+      { "text": "Strain through a fine sieve or cloth into mugs." }
+    ],
+    "tips": ["Traditionally served black, no milk. Steep 8 minutes for extra strength."],
+    "tags": ["no-machine", "spiced", "for-sharing", "dairy-free"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Isabel Eats — Café de olla", "url": "https://www.isabeleats.com/cafe-de-olla/" },
+      { "name": "Mexico in My Kitchen — Café de olla", "url": "https://www.mexicoinmykitchen.com/cafe-de-olla-recipe/" }
+    ]
+  },
+  {
+    "id": "cafe-bombon",
+    "name": "Café Bombón",
+    "category": "international",
+    "description": "Espresso layered over sweetened condensed milk in a small glass. Stir when you're ready.",
+    "origin": "Valencia, Spain",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "sweetened-condensed-milk", "amount": 30, "unit": "ml" },
+      { "id": "espresso-beans", "amount": 18, "unit": "g" }
+    ],
+    "equipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Pour the condensed milk into a small clear glass." },
+      { "text": "Pull a double espresso and pour it gently over the back of a spoon so it sits on top." },
+      { "text": "Serve layered and stir just before drinking." }
+    ],
+    "tags": ["sweet", "layered", "dessert"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Enri Lemoine — Café bombón", "url": "https://enrilemoine.com/en/2018/01/14/cafe-bombon-recipe/" },
+      { "name": "Espresso Outlet — Café bombón", "url": "https://espressooutlet.com/blogs/news/cafe-bombon-recipe-espresso-with-condensed-milk" }
+    ]
+  },
+  {
+    "id": "cafe-cubano",
+    "name": "Café Cubano",
+    "category": "international",
+    "description": "Moka-pot coffee whipped with sugar into a sweet 'espumita' foam. Served in tiny cups.",
+    "origin": "Cuba",
+    "difficulty": "medium",
+    "timeMinutes": 10,
+    "servings": 4,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "dark-roast", "amount": 20, "unit": "g", "note": "espresso-fine" },
+      { "id": "water", "amount": 150, "unit": "ml" },
+      { "id": "sugar", "amount": 4, "unit": "tsp" }
+    ],
+    "equipment": ["moka-pot"],
+    "optionalEquipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Fill the moka pot base with water and the basket with coffee, level but not tamped. Set it on medium-high heat." },
+      { "text": "Put the sugar in a small metal jug or cup." },
+      { "text": "As soon as the first few drops of coffee appear, pour about a teaspoon of them onto the sugar." },
+      { "text": "Beat the sugar and coffee hard with a spoon into a thick, pale paste. This is the espumita." },
+      { "text": "When the pot finishes, pour the coffee slowly into the paste, stirring gently. A foam will rise to the top." },
+      { "text": "Serve in small cups with a layer of foam on each." }
+    ],
+    "tags": ["no-machine", "sweet", "strong", "traditional"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Wikipedia — Cuban espresso", "url": "https://en.wikipedia.org/wiki/Cuban_espresso" },
+      { "name": "Starbucks at Home — Café cubano", "url": "https://athome.starbucks.com/recipe/cafe-cubano" },
+      { "name": "Home Espresso Lab — Cafecito with espumita", "url": "https://homeespressolab.com/recipes/cafecito-recipe/" }
+    ]
+  },
+  {
+    "id": "swedish-egg-coffee",
+    "name": "Swedish Egg Coffee",
+    "category": "international",
+    "description": "A Scandinavian-American trick: mixing a raw egg into the grounds before boiling gives a remarkably smooth, clear cup.",
+    "origin": "Sweden / US Midwest",
+    "difficulty": "medium",
+    "timeMinutes": 12,
+    "servings": 4,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 45, "unit": "g", "note": "medium-coarse" },
+      { "id": "egg", "amount": 1, "unit": "whole", "note": "shell included is traditional" },
+      { "id": "water", "amount": 1000, "unit": "ml" }
+    ],
+    "equipment": ["saucepan"],
+    "steps": [
+      { "text": "Mix the coffee grounds with the egg (and crushed shell, if you're going traditional) into a damp paste." },
+      { "text": "Bring the water to a boil, then stir in the paste." },
+      { "text": "Simmer for about 3 minutes. The egg will clump with the grounds.", "timerSeconds": 180 },
+      { "text": "Take it off the heat and add about 60 ml of cold water to settle everything.", "timerSeconds": 60 },
+      { "text": "Strain through a fine sieve and serve." }
+    ],
+    "tips": ["The egg is fully cooked by the boil, and it takes the bitterness with it."],
+    "tags": ["no-machine", "smooth", "for-sharing"],
+    "cup": "mug",
+    "sources": [
+      { "name": "America's Test Kitchen — What is Swedish egg coffee?", "url": "https://www.americastestkitchen.com/articles/5758-what-is-swedish-egg-coffee" },
+      { "name": "INeedCoffee — Swedish egg coffee", "url": "https://ineedcoffee.com/the-smoothest-cup-youll-ever-drink-swedish-egg-coffee/" }
+    ]
+  },
+  {
+    "id": "qahwa",
+    "name": "Qahwa (Arabic Coffee)",
+    "category": "international",
+    "description": "Lightly roasted coffee simmered with cardamom, and sometimes saffron. Golden, fragrant, and served with dates.",
+    "origin": "Arabian Peninsula",
+    "difficulty": "easy",
+    "timeMinutes": 20,
+    "servings": 4,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 20, "unit": "g", "note": "light roast is traditional" },
+      { "id": "water", "amount": 500, "unit": "ml" },
+      { "id": "cardamom", "amount": 1, "unit": "tbsp", "note": "freshly crushed pods" },
+      { "id": "cloves", "amount": 2, "unit": "piece", "optional": true }
+    ],
+    "equipment": ["saucepan"],
+    "steps": [
+      { "text": "Bring the water to a boil in a dallah or saucepan." },
+      { "text": "Stir in the coffee, lower the heat and simmer.", "timerSeconds": 600 },
+      { "text": "Add the crushed cardamom (and cloves, or a few saffron threads) and simmer a few minutes more.", "timerSeconds": 300 },
+      { "text": "Let the grounds settle for a minute, then pour through a strainer into small handleless cups." }
+    ],
+    "tips": ["Traditionally unsweetened and served alongside dates."],
+    "tags": ["no-machine", "spiced", "dairy-free", "traditional"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Wikipedia — Arabic coffee", "url": "https://en.wikipedia.org/wiki/Arabic_coffee" },
+      { "name": "Homegrounds — Qahwa coffee", "url": "https://www.homegrounds.co/qahwa-coffee/" }
+    ]
+  },
+  {
+    "id": "cafe-con-leche",
+    "name": "Café con Leche",
+    "category": "international",
+    "description": "Strong coffee and scalded milk in equal parts. The everyday breakfast coffee of Spain and Latin America.",
+    "origin": "Spain",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "dark-roast", "amount": 20, "unit": "g" },
+      { "id": "water", "amount": 120, "unit": "ml" },
+      { "id": "whole-milk", "amount": 120, "unit": "ml" },
+      { "id": "sugar", "amount": 1, "unit": "tsp", "optional": true }
+    ],
+    "equipment": ["moka-pot"],
+    "optionalEquipment": ["espresso-machine"],
+    "steps": [
+      { "text": "Brew strong coffee in a moka pot, or pull a double espresso." },
+      { "text": "Heat the milk in a small pan until tiny bubbles form at the edge. Take it off before it boils." },
+      { "text": "Pour the coffee and milk into a mug in roughly equal amounts, and sweeten to taste." }
+    ],
+    "tags": ["no-machine", "milky", "breakfast"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Wikipedia — Café con leche", "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_con_leche" },
+      { "name": "Mashed — Café con leche vs café au lait", "url": "https://www.mashed.com/1011096/is-there-a-difference-between-cafe-con-leche-and-cafe-au-lait/" }
+    ]
+  },
+  {
+    "id": "einspanner",
+    "name": "Einspänner (Vienna Coffee)",
+    "category": "international",
+    "description": "A Viennese café classic: strong black coffee under a thick cap of lightly sweetened whipped cream.",
+    "origin": "Vienna, Austria",
+    "difficulty": "easy",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "either",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "water", "amount": 60, "unit": "ml", "note": "hot, optional to lengthen" },
+      { "id": "heavy-cream", "amount": 60, "unit": "ml" },
+      { "id": "sugar", "amount": 1, "unit": "tsp" },
+      { "id": "cocoa-powder", "amount": 1, "unit": "pinch", "optional": true }
+    ],
+    "equipment": ["espresso-machine", "whisk"],
+    "steps": [
+      { "text": "Whip the cream and sugar to soft-to-medium peaks." },
+      { "text": "Pull a double espresso into a small glass, adding a splash of hot water if you like." },
+      { "text": "Pile the cream on top. Don't stir; sip the coffee through the cream." },
+      { "text": "Dust with cocoa if you like." }
+    ],
+    "tips": ["Iced version: pour espresso over ice and a splash of milk, then top with the cream."],
+    "tags": ["creamy", "dessert", "classic"],
+    "cup": "irish-glass",
+    "sources": [
+      { "name": "Wikipedia — Einspänner", "url": "https://en.wikipedia.org/wiki/Einsp%C3%A4nner" },
+      { "name": "Tara's Multicultural Table — Einspänner", "url": "https://tarasmulticulturaltable.com/einspanner-viennese-coffee/" }
+    ]
+  },
+  {
+    "id": "bulletproof-coffee",
+    "name": "Butter Coffee",
+    "category": "international",
+    "description": "Hot coffee blended with butter (and often MCT oil) into a rich, frothy, latte-like cup.",
+    "origin": "Inspired by Tibetan butter tea",
+    "difficulty": "easy",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 16, "unit": "g" },
+      { "id": "water", "amount": 250, "unit": "ml" },
+      { "id": "butter", "amount": 1, "unit": "tbsp", "note": "unsalted, grass-fed if possible" }
+    ],
+    "equipment": ["blender"],
+    "optionalEquipment": ["french-press", "milk-frother"],
+    "steps": [
+      { "text": "Brew a mug of coffee however you like." },
+      { "text": "Add the hot coffee and butter (plus 1 tsp–1 tbsp MCT or coconut oil, if you have it) to a blender." },
+      { "text": "Blend for about 20–30 seconds until frothy and creamy, then pour into a mug." }
+    ],
+    "tips": ["A handheld milk frother in a tall jar works too. Leave room for it to expand."],
+    "tags": ["keto", "rich"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Bulletproof — Original recipe", "url": "https://www.bulletproof.com/recipes/bulletproof-diet-recipes/bulletproof-coffee-recipe/" },
+      { "name": "Wholesome Yum — Butter coffee", "url": "https://www.wholesomeyum.com/recipes/keto-butter-coffee-recipe-with-mct-oil/" }
+    ]
+  },
+  {
+    "id": "mazagran",
+    "name": "Mazagran",
+    "category": "international",
+    "description": "The 'original iced coffee': sweetened coffee with lemon juice over ice. Think coffee lemonade.",
+    "origin": "Algeria → Portugal",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 1,
+    "temperature": "iced",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g", "note": "or 120 ml strong coffee" },
+      { "id": "sugar", "amount": 2, "unit": "tsp" },
+      { "id": "lemon", "amount": 0.5, "unit": "piece", "note": "juiced, plus a slice" },
+      { "id": "ice", "amount": 1, "unit": "cup" },
+      { "id": "mint", "amount": 2, "unit": "sprig", "optional": true }
+    ],
+    "equipment": ["espresso-machine"],
+    "optionalEquipment": ["moka-pot"],
+    "steps": [
+      { "text": "Brew a double espresso or strong moka pot coffee and stir in the sugar while it's hot." },
+      { "text": "Let it cool to room temperature." },
+      { "text": "Stir in the lemon juice." },
+      { "text": "Pour over a tall glass of ice and garnish with a lemon slice and mint." }
+    ],
+    "tags": ["refreshing", "citrus", "dairy-free"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Wikipedia — Mazagran (drink)", "url": "https://en.wikipedia.org/wiki/Mazagran_(drink)" },
+      { "name": "Homegrounds — Mazagran lemon coffee", "url": "https://www.homegrounds.co/mazagran-lemon-coffee-recipe/" }
+    ]
+  }
+]

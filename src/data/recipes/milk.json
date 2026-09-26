@@ -1,0 +1,282 @@
+[
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "category": "milk",
+    "description": "Espresso under a deep, airy cap of foam — lighter on milk and bolder than a latte.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 120, "unit": "ml" },
+      { "id": "cocoa-powder", "amount": 1, "unit": "pinch", "optional": true }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a double espresso into a 150–180 ml cup." },
+      { "text": "Steam or froth the milk to about 60–65 °C, letting in plenty of air for a thick foam (roughly 2 cm)." },
+      { "text": "Tap and swirl the pitcher to smooth the foam, then pour it into the espresso, finishing with a dome of foam." },
+      { "text": "Dust with cocoa if you like." }
+    ],
+    "tips": ["Think of it as roughly equal thirds: espresso, milk, foam."],
+    "tags": ["classic", "foamy"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Breville — Flat whites, cappuccinos & lattes", "url": "https://www.breville.com/us/en/blog/coffee-and-espresso/how-are-flat-whites-cappuccinos-lattes-different.html" },
+      { "name": "Trade Coffee — Latte vs cappuccino vs flat white", "url": "https://www.drinktrade.com/blogs/education/latte-vs-cappuccino-vs-flat-white" }
+    ]
+  },
+  {
+    "id": "latte",
+    "name": "Caffè Latte",
+    "category": "milk",
+    "description": "A double espresso in a big cup of silky steamed milk with a thin layer of foam.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 240, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a double espresso into a 300–350 ml cup or glass." },
+      { "text": "Steam the milk to 60–65 °C, adding only a little air so it turns glossy, like wet paint." },
+      { "text": "Swirl the pitcher, then pour steadily into the centre of the espresso, finishing with a thin (about 1 cm) layer of foam." }
+    ],
+    "tips": ["Any milk works. Oat milk steams best among the plant milks."],
+    "tags": ["classic", "beginner", "milky"],
+    "cup": "latte-glass",
+    "sources": [
+      { "name": "Arla — Flat white vs latte vs cappuccino", "url": "https://www.arlafoods.co.uk/brands/arla-cravendale/milky-inspiration/flat-white-vs-latte-vs-cappuccino/" },
+      { "name": "Mug Cult — Latte, cappuccino, flat white guide", "url": "https://mugcult.com/guides/latte-cappuccino-flat-white-guide" }
+    ]
+  },
+  {
+    "id": "flat-white",
+    "name": "Flat White",
+    "category": "milk",
+    "description": "A smaller, stronger-tasting latte: double espresso and velvety microfoam with barely any froth.",
+    "origin": "Australia & New Zealand",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 130, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a double espresso (a ristretto-style double is traditional) into a 150–180 ml cup." },
+      { "text": "Steam the milk with only a brief burst of air, so you get tiny, glossy bubbles." },
+      { "text": "Pour low and steady so the microfoam folds into the crema, leaving a thin (around 5 mm) surface." }
+    ],
+    "tags": ["classic", "strong", "milky"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Wikipedia — Flat white", "url": "https://en.wikipedia.org/wiki/Flat_white" },
+      { "name": "Achilles Coffee Roasters — Cappuccino, flat white & latte", "url": "https://achillescoffeeroasters.com/blogs/specialty-coffee-blog/what-is-the-difference-between-a-cappuccino-flat-white-and-latte" }
+    ]
+  },
+  {
+    "id": "cortado",
+    "name": "Cortado",
+    "category": "milk",
+    "description": "Espresso 'cut' with an equal amount of warm milk. Smooth, balanced and small.",
+    "origin": "Spain",
+    "difficulty": "medium",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 60, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a double espresso into a small glass (around 120 ml)." },
+      { "text": "Warm the milk with very little foam." },
+      { "text": "Pour roughly the same volume of milk as espresso and serve." }
+    ],
+    "tags": ["classic", "strong"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Wikipedia — Cortado", "url": "https://en.wikipedia.org/wiki/Cortado" },
+      { "name": "Bean Box — Flat white vs latte vs cortado vs macchiato", "url": "https://beanbox.com/blog/espresso-drink-menu-translated" }
+    ]
+  },
+  {
+    "id": "macchiato",
+    "name": "Espresso Macchiato",
+    "category": "milk",
+    "description": "Espresso 'stained' with a spoonful of milk foam — the smallest of the milk drinks.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 30, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a single or double espresso into a demitasse." },
+      { "text": "Froth a small amount of milk." },
+      { "text": "Spoon a dollop of foam onto the centre of the crema and serve." }
+    ],
+    "tips": ["Not the same as a caramel macchiato, which is really a layered vanilla latte."],
+    "tags": ["classic", "strong"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Restaurantware — Guide to espresso drinks", "url": "https://www.restaurantware.com/blogs/coffee-shop-guide/guide-to-different-types-of-espresso-drinks" },
+      { "name": "Mug Cult — Espresso drinks explained", "url": "https://mugcult.com/guides/espresso-drinks-menu-explained" }
+    ]
+  },
+  {
+    "id": "latte-macchiato",
+    "name": "Latte Macchiato",
+    "category": "milk",
+    "description": "Milk 'stained' by espresso: frothed milk in a tall glass with a shot poured through for pretty layers.",
+    "origin": "Italy",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "whole-milk", "amount": 200, "unit": "ml" },
+      { "id": "espresso-beans", "amount": 9, "unit": "g", "note": "single shot" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Froth the milk generously and pour it into a tall glass. Let it sit for 30 seconds so the foam separates.", "timerSeconds": 30 },
+      { "text": "Pull a single espresso." },
+      { "text": "Pour the espresso slowly through the foam; it will settle as a band between milk and froth." }
+    ],
+    "tags": ["milky", "layered"],
+    "cup": "latte-glass",
+    "sources": [
+      { "name": "Wikipedia — Latte macchiato", "url": "https://en.wikipedia.org/wiki/Latte_macchiato" },
+      { "name": "Pro Coffee Gear — Coffee drinks chart", "url": "https://procoffeegear.com/blogs/articles/coffee-drinks-chart-explained" }
+    ]
+  },
+  {
+    "id": "mocha",
+    "name": "Caffè Mocha",
+    "category": "milk",
+    "description": "A latte with chocolate stirred through: hot chocolate and espresso in one cup.",
+    "difficulty": "medium",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "chocolate-sauce", "amount": 2, "unit": "tbsp" },
+      { "id": "whole-milk", "amount": 200, "unit": "ml" },
+      { "id": "whipped-cream", "amount": 2, "unit": "tbsp", "optional": true }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Put the chocolate sauce in a mug and pull a double espresso on top of it." },
+      { "text": "Stir until the chocolate has completely dissolved." },
+      { "text": "Steam the milk and pour it in, then add whipped cream if you want to go all out." }
+    ],
+    "tips": ["No sauce? Whisk 1 tbsp cocoa and 1 tbsp sugar into the hot espresso."],
+    "tags": ["sweet", "chocolate", "dessert"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Coffee Bros — Espresso drink calculator", "url": "https://coffeebros.com/pages/milk-to-espresso-ratio-calculator" },
+      { "name": "Meraki — Espresso menu classics", "url": "https://www.merakitech.com/blogs/blog/espresso-menu-classics" }
+    ]
+  },
+  {
+    "id": "cafe-au-lait",
+    "name": "Café au Lait",
+    "category": "milk",
+    "description": "Strong brewed coffee and hot milk in equal parts. No espresso machine needed.",
+    "origin": "France",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 15, "unit": "g" },
+      { "id": "water", "amount": 150, "unit": "ml" },
+      { "id": "whole-milk", "amount": 150, "unit": "ml" }
+    ],
+    "equipment": ["french-press"],
+    "optionalEquipment": ["milk-frother"],
+    "steps": [
+      { "text": "Brew about 150 ml of strong coffee in a French press, drip machine or pour-over." },
+      { "text": "Heat the milk in a small pan until steaming, but don't let it boil." },
+      { "text": "Pour coffee and milk into a wide cup or bowl at the same time, in roughly equal amounts." }
+    ],
+    "tips": ["In France it's often served in a bowl for dunking bread."],
+    "tags": ["no-machine", "beginner", "milky"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Wikipedia — Café au lait", "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_au_lait" },
+      { "name": "Canal Coffee Company — What is a café au lait?", "url": "https://canalcoffeecompany.com/what-is-a-cafe-au-lait/" }
+    ]
+  },
+  {
+    "id": "breve",
+    "name": "Caffè Breve",
+    "category": "milk",
+    "description": "An extra-rich American latte made with steamed half-and-half instead of milk.",
+    "origin": "United States",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "half-and-half", "amount": 120, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a double espresso into a small cup." },
+      { "text": "Steam the half-and-half to 60–70 °C. It foams quickly and gets very thick." },
+      { "text": "Pour it over the espresso and serve." }
+    ],
+    "tags": ["rich", "creamy"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "A Beautiful Mess — Breve coffee", "url": "https://abeautifulmess.com/breve-coffee/" },
+      { "name": "Espresso Outlet — Café breve recipe", "url": "https://espressooutlet.com/blogs/news/cafe-breve-recipe" }
+    ]
+  },
+  {
+    "id": "piccolo",
+    "name": "Piccolo Latte",
+    "category": "milk",
+    "description": "A tiny latte in a small glass: a ristretto shot topped with warm, lightly textured milk.",
+    "origin": "Australia",
+    "difficulty": "medium",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ingredients": [
+      { "id": "espresso-beans", "amount": 18, "unit": "g" },
+      { "id": "whole-milk", "amount": 70, "unit": "ml" }
+    ],
+    "equipment": ["espresso-machine", "milk-frother"],
+    "steps": [
+      { "text": "Pull a ristretto (about 25 g) into a 90–120 ml glass." },
+      { "text": "Steam the milk with a little air for a thin layer of microfoam." },
+      { "text": "Top up the glass with milk and serve." }
+    ],
+    "tags": ["strong", "small"],
+    "cup": "cappuccino",
+    "sources": [
+      { "name": "Bean Box — Espresso drink menu translated", "url": "https://beanbox.com/blog/espresso-drink-menu-translated" },
+      { "name": "Pro Coffee Gear — Coffee drinks chart", "url": "https://procoffeegear.com/blogs/articles/coffee-drinks-chart-explained" }
+    ]
+  }
+]

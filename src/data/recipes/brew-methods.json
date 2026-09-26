@@ -1,0 +1,325 @@
+[
+  {
+    "id": "v60-pour-over",
+    "name": "V60 Pour-Over",
+    "category": "brew-method",
+    "description": "A clean, bright cup brewed by hand-pouring water over a cone of coffee in stages.",
+    "origin": "Japan (Hario)",
+    "difficulty": "medium",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:16",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 15, "unit": "g" },
+      { "id": "water", "amount": 250, "unit": "g", "note": "92–96 °C" }
+    ],
+    "equipment": ["pour-over", "grinder"],
+    "optionalEquipment": ["gooseneck-kettle", "scale"],
+    "steps": [
+      { "text": "Heat water to 92–96 °C. Rinse the paper filter with hot water and throw the rinse water away." },
+      { "text": "Grind 15 g of coffee medium-fine, about like table salt, and level the bed." },
+      { "text": "Bloom: pour about 45 g of water to wet all the grounds and wait while it bubbles.", "timerSeconds": 30 },
+      { "text": "Pour to 100 g in slow circles, avoiding the paper edges. Wait until the 1:00 mark.", "timerSeconds": 30 },
+      { "text": "Pour to 150 g, then at 1:30 pour the rest up to 250 g.", "timerSeconds": 30 },
+      { "text": "Give the dripper a gentle swirl and let it drain. Aim to finish around 3:00–3:30.", "timerSeconds": 90 }
+    ],
+    "tips": [
+      "Light roasts like the hotter end of the range; dark roasts the cooler end.",
+      "Drains too slowly? Grind coarser. Too fast and sour? Grind finer."
+    ],
+    "tags": ["no-machine", "clean", "specialty"],
+    "cup": "carafe",
+    "sources": [
+      { "name": "Origin Coffee — V60 brew guide", "url": "https://www.origincoffee.co.uk/blogs/journal/brewing-at-home-v60" },
+      { "name": "Coffee Hero — V60 golden ratio 1:16", "url": "https://coffeehero.com.au/blogs/news/v60-golden-ratio-the-1-16-pour-over-recipe" },
+      { "name": "Heirloom Coffee Roasters — Pour-over guide", "url": "https://heirloomcoffeeroasters.com/blogs/brewing-guide/pour-over" }
+    ]
+  },
+  {
+    "id": "chemex",
+    "name": "Chemex",
+    "category": "brew-method",
+    "description": "An hourglass pour-over with a thick paper filter for an ultra-clean, tea-like cup to share.",
+    "origin": "United States",
+    "difficulty": "medium",
+    "timeMinutes": 8,
+    "servings": 3,
+    "temperature": "hot",
+    "ratio": "1:15",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 42, "unit": "g" },
+      { "id": "water", "amount": 630, "unit": "g", "note": "93–96 °C" }
+    ],
+    "equipment": ["chemex", "grinder"],
+    "optionalEquipment": ["gooseneck-kettle", "scale"],
+    "steps": [
+      { "text": "Fold the filter so the triple-layered side faces the spout. Rinse it with hot water, then pour the water out." },
+      { "text": "Grind the coffee medium-coarse, like kosher salt, and add it to the filter." },
+      { "text": "Bloom: pour about 90 g of water to saturate the grounds.", "timerSeconds": 45 },
+      { "text": "Pour in slow spirals, keeping the slurry level steady, until you reach 630 g total." },
+      { "text": "Let it drain completely. The whole brew should take about 4–5 minutes.", "timerSeconds": 180 },
+      { "text": "Lift out the filter, swirl the carafe and pour." }
+    ],
+    "tips": ["The thick filter needs a coarser grind than a V60."],
+    "tags": ["no-machine", "clean", "for-sharing"],
+    "cup": "carafe",
+    "sources": [
+      { "name": "Stumptown — Chemex brew guide", "url": "https://www.stumptowncoffee.com/pages/brew-guide-chemex" },
+      { "name": "Equator Coffees — Chemex recipe", "url": "https://www.equatorcoffees.com/blogs/guides/chemex" }
+    ]
+  },
+  {
+    "id": "french-press",
+    "name": "French Press",
+    "category": "brew-method",
+    "description": "Full-bodied immersion coffee. Steep, press, pour: about as forgiving as brewing gets.",
+    "origin": "France / Italy",
+    "difficulty": "easy",
+    "timeMinutes": 7,
+    "servings": 2,
+    "temperature": "hot",
+    "ratio": "1:15",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 30, "unit": "g" },
+      { "id": "water", "amount": 450, "unit": "g", "note": "just off the boil" }
+    ],
+    "equipment": ["french-press", "kettle"],
+    "optionalEquipment": ["grinder", "scale"],
+    "steps": [
+      { "text": "Boil water and let it rest for about 30 seconds, down to roughly 93–96 °C." },
+      { "text": "Add 30 g of coarsely ground coffee (like sea salt) to the press." },
+      { "text": "Pour in all the water, making sure every ground is wet. Put the lid on without pressing.", "timerSeconds": 240 },
+      { "text": "Break the crust with a spoon and skim off the floating foam and grounds." },
+      { "text": "Press the plunger down slowly and gently." },
+      { "text": "Pour it all out straight away. Coffee left on the grounds turns bitter." }
+    ],
+    "tips": ["Want it stronger? Use 1:14. Lighter? 1:17."],
+    "tags": ["no-machine", "beginner", "full-bodied"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Bean Box — How to use a French press", "url": "https://beanbox.com/blog/how-to-use-a-french-press" },
+      { "name": "Coffee Gear Hub — French press brew guide", "url": "https://www.coffeegearhub.com/french-press-brew-guide/" }
+    ]
+  },
+  {
+    "id": "aeropress",
+    "name": "AeroPress (Standard)",
+    "category": "brew-method",
+    "description": "A quick plunger brew that makes a clean, rich cup in about two minutes.",
+    "origin": "United States",
+    "difficulty": "easy",
+    "timeMinutes": 4,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:14",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 15, "unit": "g" },
+      { "id": "water", "amount": 210, "unit": "g", "note": "about 90 °C" }
+    ],
+    "equipment": ["aeropress", "kettle"],
+    "optionalEquipment": ["grinder", "scale"],
+    "steps": [
+      { "text": "Put a paper filter in the cap, rinse it, and screw it on. Stand the AeroPress on a sturdy mug." },
+      { "text": "Add 15 g of medium-fine coffee." },
+      { "text": "Pour in 210 g of water and stir a few times.", "timerSeconds": 60 },
+      { "text": "Insert the plunger and press down gently and steadily for about 30 seconds, stopping at the hiss.", "timerSeconds": 30 }
+    ],
+    "tips": ["Top up with hot water if you want a longer, americano-style cup."],
+    "tags": ["no-machine", "beginner", "travel"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Wikipedia — AeroPress", "url": "https://en.wikipedia.org/wiki/AeroPress" },
+      { "name": "Coffee Brew Guides — AeroPress guide", "url": "https://coffeebrewguides.com/aeropress-guide/" }
+    ]
+  },
+  {
+    "id": "aeropress-inverted",
+    "name": "AeroPress (Inverted)",
+    "category": "brew-method",
+    "description": "Brew upside-down so nothing drips early: a fuller-bodied immersion cup.",
+    "difficulty": "medium",
+    "timeMinutes": 5,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:15",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 17, "unit": "g" },
+      { "id": "water", "amount": 250, "unit": "g", "note": "about 93 °C" }
+    ],
+    "equipment": ["aeropress", "kettle"],
+    "optionalEquipment": ["grinder", "scale"],
+    "steps": [
+      { "text": "Push the plunger in about 1 cm and stand the AeroPress upside down on the plunger." },
+      { "text": "Add 17 g of medium grind coffee, then pour about 50 g of water to bloom.", "timerSeconds": 30 },
+      { "text": "Add the rest of the water (to 250 g) and stir gently.", "timerSeconds": 60 },
+      { "text": "Screw on the cap with a rinsed filter, put your mug upside down on top, and carefully flip everything over." },
+      { "text": "Press slowly for about 30 seconds.", "timerSeconds": 30 }
+    ],
+    "tips": ["Flip carefully! Keep one hand on the chamber and one on the mug."],
+    "tags": ["no-machine", "full-bodied"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Perfect Daily Grind — The inverted AeroPress method", "url": "https://perfectdailygrind.com/2020/10/the-inverted-aeropress-method-a-guide/" },
+      { "name": "Methodical Coffee — AeroPress inverted", "url": "https://methodicalcoffee.com/blogs/brew-guides/how-to-brew-aeropress-inverted-method" }
+    ]
+  },
+  {
+    "id": "moka-pot",
+    "name": "Moka Pot",
+    "category": "brew-method",
+    "description": "Italy's stovetop brewer: strong, concentrated coffee that's the closest thing to espresso without a machine.",
+    "origin": "Italy",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 1,
+    "temperature": "hot",
+    "ratio": "1:7",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 20, "unit": "g", "note": "medium-fine" },
+      { "id": "water", "amount": 150, "unit": "ml", "note": "hot" }
+    ],
+    "equipment": ["moka-pot", "kettle"],
+    "steps": [
+      { "text": "Fill the bottom chamber with hot (not boiling) water up to just below the safety valve." },
+      { "text": "Fill the basket with medium-fine coffee and level it off. Don't tamp." },
+      { "text": "Screw the pot together, using a towel because the base is hot, and set it on medium-low heat with the lid open." },
+      { "text": "When coffee starts to flow, watch closely. Once it turns pale and starts to sputter, take it off the heat.", "timerSeconds": 120 },
+      { "text": "Run the base under cold water to stop extraction, then pour." }
+    ],
+    "tips": ["Starting with hot water shortens the time on the stove and avoids a burnt taste."],
+    "tags": ["no-machine", "strong", "espresso-alternative"],
+    "cup": "demitasse",
+    "sources": [
+      { "name": "Blue Bottle — Moka pot brew guide", "url": "https://bluebottlecoffee.com/us/eng/brew-guides/moka-pot" },
+      { "name": "Stumptown — How to brew in a moka pot", "url": "https://www.stumptowncoffee.com/blogs/news/how-to-brew-in-a-moka-pot" }
+    ]
+  },
+  {
+    "id": "drip-coffee-maker",
+    "name": "Better Drip Coffee",
+    "category": "brew-method",
+    "description": "Your auto-drip machine, dialled in with a proper ratio and fresh water.",
+    "difficulty": "easy",
+    "timeMinutes": 8,
+    "servings": 4,
+    "temperature": "hot",
+    "ratio": "1:16",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 60, "unit": "g", "note": "medium grind" },
+      { "id": "water", "amount": 960, "unit": "ml", "note": "cold, filtered" }
+    ],
+    "equipment": ["drip-machine"],
+    "optionalEquipment": ["scale", "grinder"],
+    "steps": [
+      { "text": "Fill the reservoir with fresh, cold filtered water." },
+      { "text": "Rinse the paper filter, then add about 60 g (roughly 8 level tbsp) of medium ground coffee for a litre of water." },
+      { "text": "Start the brew. When it finishes, give the carafe a swirl so the strength is even." },
+      { "text": "Pour into a thermos or turn off the hot plate so it doesn't stew." }
+    ],
+    "tags": ["no-machine", "beginner", "for-sharing"],
+    "cup": "carafe",
+    "sources": [
+      { "name": "Coffee Gear Hub — Coffee ratio chart", "url": "https://www.coffeegearhub.com/french-press-coffee-ratio/" },
+      { "name": "Coffee Hero — The 1:16 golden ratio", "url": "https://coffeehero.com.au/blogs/news/v60-golden-ratio-the-1-16-pour-over-recipe" }
+    ]
+  },
+  {
+    "id": "cold-brew",
+    "name": "Cold Brew Concentrate",
+    "category": "brew-method",
+    "description": "Coffee steeped overnight in cold water. Smooth, low-acid, and ready in the fridge all week.",
+    "difficulty": "easy",
+    "timeMinutes": 960,
+    "servings": 6,
+    "temperature": "iced",
+    "ratio": "1:5 (concentrate)",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 100, "unit": "g" },
+      { "id": "water", "amount": 500, "unit": "ml", "note": "cold, filtered" },
+      { "id": "ice", "amount": 1, "unit": "cup", "optional": true }
+    ],
+    "equipment": ["large-jar"],
+    "optionalEquipment": ["grinder", "french-press"],
+    "steps": [
+      { "text": "Grind the coffee very coarse, coarser than for a French press." },
+      { "text": "Stir the grounds and cold water together in a jar until everything is wet." },
+      { "text": "Cover and steep 12–18 hours in the fridge (or 10–12 at room temperature)." },
+      { "text": "Strain through a fine sieve lined with a paper filter or cloth." },
+      { "text": "To serve, dilute about 1:1 to 1:2 with water or milk over ice." }
+    ],
+    "tips": [
+      "Keeps about 2 weeks in a sealed jar in the fridge.",
+      "A French press makes straining easy: steep in it, then press."
+    ],
+    "tags": ["no-machine", "make-ahead", "smooth", "dairy-free"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "JayArr Coffee — Cold brew concentrate guide", "url": "https://jayarr.coffee/blog/cold-brew-concentrate-guide/" },
+      { "name": "Barista At Home — Cold brew ratio", "url": "https://myhomebarista.com/guides/cold-brew-ratio/" }
+    ]
+  },
+  {
+    "id": "japanese-iced-pour-over",
+    "name": "Japanese Iced Coffee",
+    "category": "brew-method",
+    "description": "Pour-over brewed hot straight onto ice. It flash-chills and keeps the bright, fruity flavours.",
+    "origin": "Japan",
+    "difficulty": "medium",
+    "timeMinutes": 6,
+    "servings": 1,
+    "temperature": "iced",
+    "ratio": "1:16 (incl. ice)",
+    "ingredients": [
+      { "id": "whole-beans", "amount": 30, "unit": "g" },
+      { "id": "water", "amount": 300, "unit": "g", "note": "hot" },
+      { "id": "ice", "amount": 200, "unit": "g" }
+    ],
+    "equipment": ["pour-over", "grinder"],
+    "optionalEquipment": ["gooseneck-kettle", "scale"],
+    "steps": [
+      { "text": "Weigh 200 g of ice into your carafe and set the dripper on top." },
+      { "text": "Grind 30 g of coffee a little finer than for a hot pour-over." },
+      { "text": "Bloom with about 60 g of hot water.", "timerSeconds": 45 },
+      { "text": "Pour the rest of the hot water in slow circles until you've added 300 g total." },
+      { "text": "Once it drains, swirl until most of the ice melts, then pour over fresh ice." }
+    ],
+    "tips": ["The ice is part of the brew water, so the hot portion is brewed extra strong."],
+    "tags": ["no-machine", "bright", "specialty"],
+    "cup": "tall-iced",
+    "sources": [
+      { "name": "Doppio — James Hoffmann's iced filter coffee", "url": "https://doppiomontreal.com/blogs/news/james-hoffmans-iced-filtered-coffee-recipe" },
+      { "name": "Gear Patrol — Japanese-style iced coffee", "url": "https://www.gearpatrol.com/home/a741518/pour-over-iced-coffee/" }
+    ]
+  },
+  {
+    "id": "cowboy-coffee",
+    "name": "Cowboy Coffee",
+    "category": "brew-method",
+    "description": "Campfire coffee: boil grounds right in the pot, then settle them with a splash of cold water.",
+    "origin": "American West",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 2,
+    "temperature": "hot",
+    "ratio": "1:15",
+    "ingredients": [
+      { "id": "ground-coffee", "amount": 30, "unit": "g", "note": "coarse" },
+      { "id": "water", "amount": 500, "unit": "ml" }
+    ],
+    "equipment": ["saucepan"],
+    "steps": [
+      { "text": "Heat the water in a saucepan until it's just about to boil, then take it off the heat." },
+      { "text": "Stir in the coarse grounds and let them steep.", "timerSeconds": 120 },
+      { "text": "Stir again and steep a couple more minutes.", "timerSeconds": 120 },
+      { "text": "Sprinkle about 60 ml of cold water over the surface. It sinks and pulls the grounds down with it." },
+      { "text": "Pour slowly into mugs, leaving the last bit and the sludge in the pot." }
+    ],
+    "tags": ["no-machine", "camping", "rustic"],
+    "cup": "mug",
+    "sources": [
+      { "name": "Trade Coffee — How to make cowboy coffee", "url": "https://www.drinktrade.com/blogs/education/cowboy-coffee-recipe" },
+      { "name": "Driftaway Coffee — How do you make cowboy coffee?", "url": "https://driftaway.coffee/how-do-you-make-cowboy-coffee/" }
+    ]
+  }
+]

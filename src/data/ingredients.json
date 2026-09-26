@@ -1,0 +1,455 @@
+{
+  "ingredients": [
+    {
+      "id": "whole-beans",
+      "name": "Whole coffee beans",
+      "group": "coffee",
+      "substitutes": [
+        "ground-coffee"
+      ]
+    },
+    {
+      "id": "ground-coffee",
+      "name": "Ground coffee",
+      "group": "coffee",
+      "substitutes": [
+        "whole-beans"
+      ]
+    },
+    {
+      "id": "dark-roast",
+      "name": "Dark roast coffee",
+      "group": "coffee",
+      "substitutes": [
+        "whole-beans",
+        "ground-coffee"
+      ]
+    },
+    {
+      "id": "espresso-beans",
+      "name": "Espresso beans / espresso grind",
+      "group": "coffee",
+      "substitutes": [
+        "whole-beans",
+        "dark-roast",
+        "ground-coffee"
+      ]
+    },
+    {
+      "id": "instant-coffee",
+      "name": "Instant coffee",
+      "group": "coffee",
+      "substitutes": []
+    },
+    {
+      "id": "cold-brew-concentrate",
+      "name": "Cold brew concentrate",
+      "group": "coffee",
+      "substitutes": []
+    },
+    {
+      "id": "whole-milk",
+      "name": "Whole milk",
+      "group": "dairy",
+      "substitutes": [
+        "two-percent-milk",
+        "oat-milk"
+      ]
+    },
+    {
+      "id": "two-percent-milk",
+      "name": "2% milk",
+      "group": "dairy",
+      "substitutes": [
+        "whole-milk"
+      ]
+    },
+    {
+      "id": "oat-milk",
+      "name": "Oat milk",
+      "group": "dairy",
+      "substitutes": [
+        "whole-milk",
+        "almond-milk"
+      ]
+    },
+    {
+      "id": "almond-milk",
+      "name": "Almond milk",
+      "group": "dairy",
+      "substitutes": [
+        "oat-milk"
+      ]
+    },
+    {
+      "id": "coconut-milk",
+      "name": "Coconut milk",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "heavy-cream",
+      "name": "Heavy whipping cream",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "half-and-half",
+      "name": "Half-and-half",
+      "group": "dairy",
+      "substitutes": [
+        "heavy-cream"
+      ]
+    },
+    {
+      "id": "whipped-cream",
+      "name": "Whipped cream",
+      "group": "dairy",
+      "substitutes": [
+        "heavy-cream"
+      ]
+    },
+    {
+      "id": "sweetened-condensed-milk",
+      "name": "Sweetened condensed milk",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "evaporated-milk",
+      "name": "Evaporated milk",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "vanilla-ice-cream",
+      "name": "Vanilla ice cream",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "group": "dairy",
+      "substitutes": []
+    },
+    {
+      "id": "egg",
+      "name": "Eggs",
+      "group": "other",
+      "substitutes": []
+    },
+    {
+      "id": "sugar",
+      "name": "Granulated sugar",
+      "group": "sweetener",
+      "substitutes": []
+    },
+    {
+      "id": "brown-sugar",
+      "name": "Brown sugar",
+      "group": "sweetener",
+      "substitutes": [
+        "sugar"
+      ]
+    },
+    {
+      "id": "piloncillo",
+      "name": "Piloncillo / panela",
+      "group": "sweetener",
+      "substitutes": [
+        "brown-sugar"
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "group": "sweetener",
+      "substitutes": [
+        "maple-syrup"
+      ]
+    },
+    {
+      "id": "maple-syrup",
+      "name": "Maple syrup",
+      "group": "sweetener",
+      "substitutes": [
+        "honey"
+      ]
+    },
+    {
+      "id": "simple-syrup",
+      "name": "Simple syrup",
+      "group": "sweetener",
+      "substitutes": [
+        "sugar"
+      ]
+    },
+    {
+      "id": "vanilla-syrup",
+      "name": "Vanilla syrup",
+      "group": "sweetener",
+      "substitutes": []
+    },
+    {
+      "id": "caramel-sauce",
+      "name": "Caramel sauce",
+      "group": "sweetener",
+      "substitutes": []
+    },
+    {
+      "id": "chocolate-sauce",
+      "name": "Chocolate sauce",
+      "group": "sweetener",
+      "substitutes": [
+        "cocoa-powder"
+      ]
+    },
+    {
+      "id": "cocoa-powder",
+      "name": "Cocoa powder",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "dark-chocolate",
+      "name": "Dark chocolate",
+      "group": "flavor",
+      "substitutes": [
+        "chocolate-sauce"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "cardamom",
+      "name": "Cardamom",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "pumpkin-puree",
+      "name": "Pumpkin purée",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "pumpkin-pie-spice",
+      "name": "Pumpkin pie spice",
+      "group": "flavor",
+      "substitutes": [
+        "cinnamon"
+      ]
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla extract",
+      "group": "flavor",
+      "substitutes": [
+        "vanilla-syrup"
+      ]
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "star-anise",
+      "name": "Star anise",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "mint",
+      "name": "Fresh mint",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "whiskey",
+      "name": "Irish whiskey",
+      "group": "spirit",
+      "substitutes": []
+    },
+    {
+      "id": "coffee-liqueur",
+      "name": "Coffee liqueur",
+      "group": "spirit",
+      "substitutes": []
+    },
+    {
+      "id": "vodka",
+      "name": "Vodka",
+      "group": "spirit",
+      "substitutes": []
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "group": "basics",
+      "substitutes": []
+    },
+    {
+      "id": "ice",
+      "name": "Ice",
+      "group": "basics",
+      "substitutes": []
+    },
+    {
+      "id": "tonic-water",
+      "name": "Tonic water",
+      "group": "basics",
+      "substitutes": []
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling water",
+      "group": "basics",
+      "substitutes": [
+        "tonic-water"
+      ]
+    },
+    {
+      "id": "cloves",
+      "name": "Whole cloves",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "cayenne",
+      "name": "Cayenne pepper",
+      "group": "flavor",
+      "substitutes": []
+    },
+    {
+      "id": "licor-43",
+      "name": "Licor 43",
+      "group": "spirit",
+      "substitutes": []
+    }
+  ],
+  "equipment": [
+    {
+      "id": "espresso-machine",
+      "name": "Espresso machine"
+    },
+    {
+      "id": "moka-pot",
+      "name": "Moka pot"
+    },
+    {
+      "id": "french-press",
+      "name": "French press"
+    },
+    {
+      "id": "pour-over",
+      "name": "Pour-over dripper (V60 etc.)"
+    },
+    {
+      "id": "chemex",
+      "name": "Chemex"
+    },
+    {
+      "id": "aeropress",
+      "name": "AeroPress"
+    },
+    {
+      "id": "drip-machine",
+      "name": "Drip coffee maker"
+    },
+    {
+      "id": "phin-filter",
+      "name": "Vietnamese phin filter"
+    },
+    {
+      "id": "cezve",
+      "name": "Cezve / ibrik"
+    },
+    {
+      "id": "milk-frother",
+      "name": "Milk frother / steam wand"
+    },
+    {
+      "id": "blender",
+      "name": "Blender"
+    },
+    {
+      "id": "grinder",
+      "name": "Coffee grinder"
+    },
+    {
+      "id": "kettle",
+      "name": "Kettle"
+    },
+    {
+      "id": "gooseneck-kettle",
+      "name": "Gooseneck kettle"
+    },
+    {
+      "id": "whisk",
+      "name": "Whisk / hand mixer"
+    },
+    {
+      "id": "cocktail-shaker",
+      "name": "Cocktail shaker / jar"
+    },
+    {
+      "id": "saucepan",
+      "name": "Saucepan"
+    },
+    {
+      "id": "large-jar",
+      "name": "Large jar or pitcher"
+    },
+    {
+      "id": "scale",
+      "name": "Kitchen scale"
+    }
+  ],
+  "equipmentSubstitutes": {
+    "chemex": [
+      "pour-over"
+    ],
+    "pour-over": [
+      "chemex"
+    ],
+    "gooseneck-kettle": [
+      "kettle"
+    ],
+    "cocktail-shaker": [
+      "large-jar"
+    ],
+    "milk-frother": [
+      "whisk",
+      "french-press"
+    ],
+    "espresso-machine": [
+      "moka-pot",
+      "aeropress"
+    ]
+  }
+}
