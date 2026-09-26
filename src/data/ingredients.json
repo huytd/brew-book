@@ -27,7 +27,7 @@
     },
     {
       "id": "espresso-beans",
-      "name": "Espresso beans / espresso grind",
+      "name": "Espresso roast",
       "group": "coffee",
       "substitutes": [
         "whole-beans",

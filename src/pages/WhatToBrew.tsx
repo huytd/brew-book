@@ -14,6 +14,7 @@ import { usePersistentSet } from '../lib/storage'
 import type { IngredientGroup } from '../lib/types'
 import { Cup } from '../components/Cup'
 import { IconCheck, IconChevron } from '../components/Icons'
+import { ItemIcon } from '../components/itemIcons'
 
 const vocab: Vocab = {
   ingredientSubs: new Map(ingredients.map((i) => [i.id, i.substitutes])),
@@ -159,13 +160,20 @@ function PickerGroup({
         {selected > 0 && <span className="count-badge">{selected}</span>}
         <IconChevron className="chev" />
       </summary>
-      <div className="chip-wrap">
+      <div className="picker-grid">
         {items.map((i) => {
           const on = has(i.id)
           return (
-            <button key={i.id} type="button" className="chip chip-pick" aria-pressed={on} onClick={() => toggle(i.id)}>
-              {on && <IconCheck width={14} height={14} />}
-              {i.name}
+            <button key={i.id} type="button" className="picker-tile" aria-pressed={on} onClick={() => toggle(i.id)}>
+              {on && (
+                <span className="picker-badge" aria-hidden="true">
+                  <IconCheck width={12} height={12} />
+                </span>
+              )}
+              <span className="picker-plate">
+                <ItemIcon id={i.id} size={42} />
+              </span>
+              <span className="picker-label">{i.name}</span>
             </button>
           )
         })}
@@ -205,7 +213,16 @@ function ResultGroup({
                   <span className="match-name">{m.recipe.name}</span>
                   {m.missing.length > 0 && (
                     <span className="match-note missing">
-                      Missing: {m.missing.map((x) => nameOf(x.kind, x.id)).join(', ')}
+                      Missing:{' '}
+                      {m.missing.map((x, idx) => (
+                        <span key={x.id}>
+                          {idx > 0 && ', '}
+                          <span className="missing-item">
+                            <ItemIcon id={x.id} size={16} />
+                            <span>{nameOf(x.kind, x.id)}</span>
+                          </span>
+                        </span>
+                      ))}
                     </span>
                   )}
                   {m.substitutions.length > 0 && (

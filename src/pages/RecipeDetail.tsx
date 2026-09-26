@@ -6,6 +6,7 @@ import { Cup } from '../components/Cup'
 import { SaveButton, TempBadge } from '../components/RecipeCard'
 import { Timer } from '../components/Timer'
 import { IconBack, IconCheck, IconExternal, IconMinus, IconPlus } from '../components/Icons'
+import { ItemIcon } from '../components/itemIcons'
 
 export function RecipeDetail() {
   const { id } = useParams()
@@ -132,6 +133,7 @@ function RecipeView({
                     </span>
                     <span className="amount">{formatAmount(ing.amount, ing.unit, factor)}</span>
                     <span className="ing-name">
+                      <ItemIcon id={ing.id} size={24} />
                       {ingredientById.get(ing.id)?.name ?? ing.id}
                       {ing.optional && <span className="tag-optional">optional</span>}
                       {ing.note && <span className="ing-note">{ing.note}</span>}
@@ -148,11 +150,13 @@ function RecipeView({
               <ul className="pill-list">
                 {recipe.equipment.map((e) => (
                   <li key={e} className="pill">
+                    <ItemIcon id={e} size={18} />
                     {equipmentById.get(e)?.name ?? e}
                   </li>
                 ))}
                 {recipe.optionalEquipment?.map((e) => (
                   <li key={e} className="pill pill-muted">
+                    <ItemIcon id={e} size={18} />
                     {equipmentById.get(e)?.name ?? e} <span className="sr-only">(optional)</span>
                     <span aria-hidden="true">· optional</span>
                   </li>
