@@ -138,13 +138,12 @@ Same set as the ingredient icons (`docs/icon-sheet-source.png`). Put that image 
 
 If one sheet has errors, regenerate **only that sheet**, or the single row as a 1600 × 320 strip with the same prompt.
 
-## 5. Integration plan
+## 5. Integration (done for sheets A and B)
 
-- Save the sheets as `docs/drink-sheet-a.png`, `-b.png`, `-c.png`.
-- Generalise `scripts/slice-icon-sheet.py` (columns, rows, output cell size as arguments). Slice the three sheets into one **10 × 6 grid of 192 px cells** → `src/assets/drinks.webp` (1920 × 1152, ~300–400 KB).
-- Add `src/lib/drinkCells.ts` (`recipe id → cell`, taken from §3) and a `DrinkArt` component like `ItemIcon`. Use it in `RecipeCard`, the What to Brew match list and the recipe hero. Fall back to cell 60 for unknown ids.
-- Add a test that every recipe id in `src/data/recipes/*.json` has a cell.
-- Keep `Cup.tsx` until the art is approved, then remove it.
+- The sheets live in `docs/drink-sheet-{a,b,c}.png`. `python3 scripts/slice_sheets.py drinks` cuts them into a 10 × 6 grid of 192 px cells (`src/assets/drinks.webp`, drinks bottom-aligned) and writes `src/assets/drinks.json` listing which cells have art.
+- `src/lib/drinkCells.ts` maps recipe id → cell (from §3). `DrinkArt` shows the drawing on recipe cards, What to Brew results and the recipe hero, and falls back to the SVG `Cup` for any cell without art. A missing sheet just means those recipes keep the drawn cup.
+- `src/lib/drinks.test.ts` checks that every recipe has its own cell.
+- To add or replace a sheet: save it as `docs/drink-sheet-<letter>.png` and re-run the script. No code changes are needed.
 
 ## 6. Ready-to-paste prompts
 
@@ -170,7 +169,10 @@ Use the shared style block with **each** sheet's list. Attach `docs/icon-sheet-s
 
 **Sheet C list**
 
-> Row 1: Vietnamese egg coffee — small white cup sitting in a bowl of hot water, thick custard-yellow egg foam dusted with cocoa; café bombón — small clear glass with a white condensed-milk layer below black espresso; café con leche — clear handleless glass tumbler of tan coffee with milk on a saucer with a sugar cube; café cubano — three tiny white cups on a small tray, each with pale sweet foam; café de olla — terracotta clay mug of black coffee with a cinnamon stick.
-> Row 2: einspänner — clear glass with handle, black coffee under a tall mound of whipped cream above the rim, cocoa dust; mazagran — tall glass of dark amber iced coffee with a lemon wheel on the rim and a mint sprig; qahwa — brass dallah pot with long curved spout beside a small handleless cup of pale golden coffee and one date; Swedish egg coffee — enamel coffee pot and a white mug of clear light-amber coffee, a whole egg beside; Turkish coffee — small cup with a simple red band, thick velvety foam, copper cezve beside, one cube of Turkish delight.
-> Row 3: caramel macchiato — tall clear glass of milk with an espresso band near the top and a caramel crosshatch on the foam; honey cinnamon latte — white mug with latte art, honey dipper resting on the rim, cinnamon dust; maple cinnamon latte — white mug with a maple-leaf shape in the foam, small maple-syrup bottle beside; Mexican mocha — terracotta mug with whipped cream and cinnamon, small red chili beside; pumpkin spice latte — white mug with spiced whipped cream, mini pumpkin beside.
-> Row 4: vanilla latte — clear glass mug with light latte and heart art, vanilla pod beside; carajillo — rocks glass with ice, frothy dark-tan drink, three coffee beans on the foam; espresso martini — stemmed martini glass, dark drink with creamy tan foam and three coffee beans; Irish coffee — stemmed Irish-coffee glass with handle, dark coffee under a thick white cream collar; plain white mug of black coffee with steam.
+> IMPORTANT: all 20 cells are COFFEE drinks — every one contains coffee. Do not draw tea, matcha, chai, hot chocolate, juice, smoothies, wine or non-coffee cocktails. Follow the numbered list exactly, one drink per cell.
+> 1 Vietnamese egg coffee — small white cup sitting in a bowl of hot water, thick custard-yellow egg foam dusted with cocoa. 2 café bombón — small clear glass, white condensed-milk layer below black espresso. 3 café con leche — clear handleless glass tumbler of tan milky coffee on a saucer with a sugar cube. 4 café cubano — three tiny white cups on a small tray, each with pale sweet foam. 5 café de olla — terracotta clay mug of black coffee with a cinnamon stick.
+> 6 einspänner — clear glass with handle, black coffee under a tall mound of whipped cream above the rim, cocoa dust. 7 mazagran — tall glass of dark amber iced coffee with a lemon wheel on the rim and a mint sprig. 8 qahwa — brass dallah coffee pot with a long curved beak spout beside a small handleless cup of pale golden coffee and one date. 9 Swedish egg coffee — enamel coffee pot and a white mug of clear light-amber coffee, a whole egg beside. 10 Turkish coffee — small coffee cup with a simple red band and thick velvety brown foam, copper cezve beside, one cube of Turkish delight.
+> 11 caramel macchiato — tall clear glass of milk with an espresso band near the top and a caramel crosshatch on the foam. 12 honey cinnamon latte — white mug with latte art, a honey dipper resting on the rim. 13 maple cinnamon latte — white mug with a maple-leaf shape in the latte foam, small maple-syrup bottle beside. 14 Mexican mocha — terracotta mug of chocolate coffee topped with whipped cream and cinnamon, small red chili beside. 15 pumpkin spice latte — white mug with spiced whipped cream, a mini pumpkin beside.
+> 16 vanilla latte — clear glass mug of light latte with heart art, a vanilla pod beside. 17 carajillo — short rocks glass with ice, frothy dark-tan coffee drink, three coffee beans on the foam. 18 espresso martini — stemmed martini glass, dark coffee drink with creamy tan foam and three coffee beans. 19 Irish coffee — stemmed Irish-coffee glass with handle, dark coffee under a thick white cream collar. 20 a plain white mug of black coffee with steam.
+
+A first attempt at sheet C drifted into a generic drinks menu (matcha, tea, smoothies, juice, piña colada). If that happens again, generate it as **four row strips** (1600 × 320, five drinks each) using the same style block plus one numbered row at a time.

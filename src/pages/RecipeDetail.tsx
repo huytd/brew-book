@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { CATEGORY_LABELS, equipmentById, ingredientById, recipeById } from '../lib/data'
 import { formatAmount, formatTime } from '../lib/format'
-import { Cup } from '../components/Cup'
+import { DrinkArt } from '../components/DrinkArt'
 import { SaveButton, TempBadge } from '../components/RecipeCard'
 import { Timer } from '../components/Timer'
 import { IconBack, IconCheck, IconExternal, IconMinus, IconPlus } from '../components/Icons'
@@ -60,7 +60,7 @@ function RecipeView({
 
       <header className="recipe-hero">
         <div className="recipe-art">
-          <Cup recipe={recipe} size={180} />
+          <DrinkArt recipe={recipe} size={180} />
         </div>
         <div>
           <p className="eyebrow">

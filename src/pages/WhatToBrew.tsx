@@ -12,7 +12,7 @@ import {
 import { ASSUMED_EQUIPMENT, ASSUMED_INGREDIENTS, suggest, type MatchResult, type Vocab } from '../lib/match'
 import { usePersistentSet } from '../lib/storage'
 import type { IngredientGroup } from '../lib/types'
-import { Cup } from '../components/Cup'
+import { DrinkArt } from '../components/DrinkArt'
 import { IconCheck, IconChevron } from '../components/Icons'
 import { ItemIcon } from '../components/itemIcons'
 
@@ -207,7 +207,7 @@ function ResultGroup({
             <li key={m.recipe.id}>
               <Link to={`/recipe/${m.recipe.id}`} className={`match cat-${m.recipe.category}`}>
                 <span className="match-art">
-                  <Cup recipe={m.recipe} size={64} steam={false} />
+                  <DrinkArt recipe={m.recipe} size={64} steam={false} />
                 </span>
                 <span className="match-body">
                   <span className="match-name">{m.recipe.name}</span>

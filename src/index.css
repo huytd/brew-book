@@ -524,6 +524,11 @@ button {
   color: var(--cup-ink);
   overflow: visible;
 }
+.drink-art {
+  display: block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
 .item-icon {
   display: inline-block;
   vertical-align: middle;
@@ -643,9 +648,10 @@ button {
     grid-template-columns: 1fr;
     grid-template-rows: 150px 1fr;
   }
-  .card-art svg {
-    width: 128px;
-    height: 128px;
+  .card-art svg,
+  .card-art .drink-art {
+    width: 128px !important;
+    height: 128px !important;
   }
   .card-body {
     padding: 16px 18px 18px;
@@ -743,9 +749,10 @@ button {
   .recipe-art {
     aspect-ratio: 1;
   }
-  .recipe-art svg {
-    width: 220px;
-    height: 220px;
+  .recipe-art svg,
+  .recipe-art .drink-art {
+    width: 220px !important;
+    height: 220px !important;
   }
 }
 

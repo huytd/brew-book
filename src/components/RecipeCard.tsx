@@ -4,7 +4,7 @@ import type { Recipe } from '../lib/types'
 import { CATEGORY_LABELS } from '../lib/data'
 import { formatTime } from '../lib/format'
 import { useFavorites } from '../lib/favorites'
-import { Cup } from './Cup'
+import { DrinkArt } from './DrinkArt'
 import { IconClock, IconFlame, IconHeart, IconSnow } from './Icons'
 
 export function TempBadge({ recipe }: { recipe: Recipe }) {
@@ -48,7 +48,7 @@ export function RecipeCard({ recipe, children }: { recipe: Recipe; children?: Re
     <article className={`card cat-${recipe.category}`}>
       <Link to={`/recipe/${recipe.id}`} className="card-link">
         <div className="card-art">
-          <Cup recipe={recipe} size={104} steam={false} />
+          <DrinkArt recipe={recipe} size={104} steam={false} />
         </div>
         <div className="card-body">
           <p className="eyebrow">{CATEGORY_LABELS[recipe.category]}</p>
