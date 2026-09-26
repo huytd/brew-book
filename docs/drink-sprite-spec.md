@@ -138,12 +138,13 @@ Same set as the ingredient icons (`docs/icon-sheet-source.png`). Put that image 
 
 If one sheet has errors, regenerate **only that sheet**, or the single row as a 1600 × 320 strip with the same prompt.
 
-## 5. Integration (done for sheets A and B)
+## 5. Integration (done)
 
 - The sheets live in `docs/drink-sheet-{a,b,c}.png`. `python3 scripts/slice_sheets.py drinks` cuts them into a 10 × 6 grid of 192 px cells (`src/assets/drinks.webp`, drinks bottom-aligned) and writes `src/assets/drinks.json` listing which cells have art.
 - `src/lib/drinkCells.ts` maps recipe id → cell (from §3). `DrinkArt` shows the drawing on recipe cards, What to Brew results and the recipe hero, and falls back to the SVG `Cup` for any cell without art. A missing sheet just means those recipes keep the drawn cup.
 - `src/lib/drinks.test.ts` checks that every recipe has its own cell.
 - To add or replace a sheet: save it as `docs/drink-sheet-<letter>.png` and re-run the script. No code changes are needed.
+- If a generator paints a fake transparency **checkerboard** instead of real alpha (sheet C did, as a JPEG), clean it first: `python3 scripts/remove_checkerboard.py in.jpg docs/drink-sheet-c.png`. The script removes the neutral grey and white background, including cup-handle holes that line up with the checker grid, and keeps neutral glass bottoms and stems.
 
 ## 6. Ready-to-paste prompts
 
