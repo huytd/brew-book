@@ -184,12 +184,11 @@ That covers all 70 ids. `npm test` should assert that every id in `src/data/ingr
 
 If a generation run gets some cells wrong, regenerate **just that row** as a 2048 × 256 strip using the same prompt and the same style reference, then paste the row into place.
 
-## 7. Integration plan (after the sheet is approved)
+## 7. Integration (done)
 
-- Save as `public/icons/sprite.png`. Also export a downscaled copy at 1024 × 768 (`sprite@1x.png`) for faster loading; use `srcset` or `image-set()` so high-density screens get the 2048 version.
-- `ItemIcon` becomes a `<span>` with `background-image: url(sprite)`, `background-size: 800% 600%`, and `background-position` computed from the cell index (`col = (i-1) % 8`, `row = floor((i-1) / 8)`, position `col * 100/7 %`, `row * 100/5 %`). The existing `size` prop sets width and height.
-- Replace `ITEM_ICONS` with an `ICON_CELL: Record<string, number>` table matching §5. Keep the existing test, but check it against the new table.
-- Icons stay decorative (`aria-hidden`), with the text label always visible beside them.
+- Source sheet: `docs/icon-sheet-source.png`. `scripts/slice-icon-sheet.py` cuts it into clean 128 px cells, 8 × 6 = 1024 × 768, and writes `src/assets/ingredients.webp`. The generator didn't keep objects inside their cells, so the script finds each object by its outline and snaps small pieces (drips, grains, droplets) onto the nearest one.
+- `src/lib/iconCells.ts` holds the id → cell table from §5. `ItemIcon` renders the matching cell of the sprite as a CSS background.
+- `src/lib/icons.test.ts` checks that every id is mapped and that all 48 cells are used.
 
 ## 8. Ready-to-paste prompt
 

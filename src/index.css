@@ -525,10 +525,22 @@ button {
   overflow: visible;
 }
 .item-icon {
-  color: var(--cup-ink);
   display: inline-block;
   vertical-align: middle;
   flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+/* Small icons sitting straight on a dark surface get a faint light rim so dark objects stay visible. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .item-icon {
+    filter: drop-shadow(0 0 1px rgba(255, 244, 230, 0.75));
+  }
+}
+:root[data-theme='dark'] .item-icon {
+  filter: drop-shadow(0 0 1px rgba(255, 244, 230, 0.75));
+}
+:root .picker-plate .item-icon {
+  filter: none;
 }
 .cup .steam path {
   animation: steam 2.6s ease-in-out infinite;
@@ -1136,9 +1148,6 @@ button {
   border-radius: 50%;
   background: var(--plate);
   flex-shrink: 0;
-}
-.picker-plate .item-icon {
-  color: #3a2a20;
 }
 .picker-label {
   font-size: 0.8125rem;
